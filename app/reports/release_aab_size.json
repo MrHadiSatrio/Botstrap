@@ -1,0 +1,1797 @@
+{
+  "name": "com.hadisatrio.template.android.Bootstrap",
+  "version": "0.1.0-SNAPSHOT",
+  "variant": "release",
+  "downloadSize": 161674,
+  "installSize": 286350,
+  "components": [
+    {
+      "name": ":app",
+      "type": "INTERNAL",
+      "downloadSize": 93474,
+      "installSize": 150354,
+      "files": [
+        {
+          "name": "/resources.arsc",
+          "type": "OTHER",
+          "downloadSize": 13731,
+          "installSize": 70700
+        },
+        {
+          "name": "/res/mipmap-xxxhdpi-v4/ic_launcher_round.webp",
+          "type": "RESOURCE",
+          "downloadSize": 7783,
+          "installSize": 7778,
+          "resourceType": "OTHER"
+        },
+        {
+          "name": "/res/mipmap-xxhdpi-v4/ic_launcher_round.webp",
+          "type": "RESOURCE",
+          "downloadSize": 5919,
+          "installSize": 5914,
+          "resourceType": "OTHER"
+        },
+        {
+          "name": "/kotlin/kotlin.kotlin_builtins",
+          "type": "OTHER",
+          "downloadSize": 5307,
+          "installSize": 5342
+        },
+        {
+          "name": "/META-INF/BNDLTOOL.SF",
+          "type": "OTHER",
+          "downloadSize": 5121,
+          "installSize": 5121
+        },
+        {
+          "name": "/res/mipmap-xhdpi-v4/ic_launcher_round.webp",
+          "type": "RESOURCE",
+          "downloadSize": 3923,
+          "installSize": 3918,
+          "resourceType": "OTHER"
+        },
+        {
+          "name": "/res/mipmap-xxxhdpi-v4/ic_launcher.webp",
+          "type": "RESOURCE",
+          "downloadSize": 3849,
+          "installSize": 3844,
+          "resourceType": "OTHER"
+        },
+        {
+          "name": "/META-INF/androidx/annotation/annotation/LICENSE.txt",
+          "type": "OTHER",
+          "downloadSize": 3563,
+          "installSize": 3563
+        },
+        {
+          "name": "/META-INF/androidx/collection/collection/LICENSE.txt",
+          "type": "OTHER",
+          "downloadSize": 3563,
+          "installSize": 3563
+        },
+        {
+          "name": "/META-INF/androidx/collection/collection-ktx/LICENSE.txt",
+          "type": "OTHER",
+          "downloadSize": 3563,
+          "installSize": 3563
+        },
+        {
+          "name": "/META-INF/androidx/lifecycle/lifecycle-common/LICENSE.txt",
+          "type": "OTHER",
+          "downloadSize": 3563,
+          "installSize": 3563
+        },
+        {
+          "name": "/META-INF/androidx/lifecycle/lifecycle-common-java8/LICENSE.txt",
+          "type": "OTHER",
+          "downloadSize": 3563,
+          "installSize": 3563
+        },
+        {
+          "name": "/res/mipmap-hdpi-v4/ic_launcher_round.webp",
+          "type": "RESOURCE",
+          "downloadSize": 2903,
+          "installSize": 2898,
+          "resourceType": "OTHER"
+        },
+        {
+          "name": "/res/mipmap-xxhdpi-v4/ic_launcher.webp",
+          "type": "RESOURCE",
+          "downloadSize": 2889,
+          "installSize": 2884,
+          "resourceType": "OTHER"
+        },
+        {
+          "name": "/res/mipmap-xhdpi-v4/ic_launcher.webp",
+          "type": "RESOURCE",
+          "downloadSize": 1905,
+          "installSize": 1900,
+          "resourceType": "OTHER"
+        },
+        {
+          "name": "/kotlin/collections/collections.kotlin_builtins",
+          "type": "OTHER",
+          "downloadSize": 1818,
+          "installSize": 1834
+        },
+        {
+          "name": "/res/mipmap-mdpi-v4/ic_launcher_round.webp",
+          "type": "RESOURCE",
+          "downloadSize": 1777,
+          "installSize": 1772,
+          "resourceType": "OTHER"
+        },
+        {
+          "name": "/AndroidManifest.xml",
+          "type": "OTHER",
+          "downloadSize": 1761,
+          "installSize": 1761
+        },
+        {
+          "name": "/kotlin/reflect/reflect.kotlin_builtins",
+          "type": "OTHER",
+          "downloadSize": 1426,
+          "installSize": 1435
+        },
+        {
+          "name": "/res/mipmap-hdpi-v4/ic_launcher.webp",
+          "type": "RESOURCE",
+          "downloadSize": 1409,
+          "installSize": 1404,
+          "resourceType": "OTHER"
+        },
+        {
+          "name": "/kotlin/ranges/ranges.kotlin_builtins",
+          "type": "OTHER",
+          "downloadSize": 1354,
+          "installSize": 1354
+        },
+        {
+          "name": "/kotlin/concurrent/atomics/atomics.kotlin_builtins",
+          "type": "OTHER",
+          "downloadSize": 1082,
+          "installSize": 1082
+        },
+        {
+          "name": "/META-INF/BNDLTOOL.RSA",
+          "type": "OTHER",
+          "downloadSize": 1051,
+          "installSize": 1051
+        },
+        {
+          "name": "/META-INF/BNDLTOOL.RSA",
+          "type": "OTHER",
+          "downloadSize": 1049,
+          "installSize": 1049
+        },
+        {
+          "name": "/META-INF/BNDLTOOL.RSA",
+          "type": "OTHER",
+          "downloadSize": 1048,
+          "installSize": 1048
+        },
+        {
+          "name": "/META-INF/BNDLTOOL.RSA",
+          "type": "OTHER",
+          "downloadSize": 1048,
+          "installSize": 1048
+        },
+        {
+          "name": "/res/drawable/ic_launcher_background.xml",
+          "type": "RESOURCE",
+          "downloadSize": 987,
+          "installSize": 987,
+          "resourceType": "DRAWABLE"
+        },
+        {
+          "name": "/res/mipmap-mdpi-v4/ic_launcher.webp",
+          "type": "RESOURCE",
+          "downloadSize": 987,
+          "installSize": 982,
+          "resourceType": "OTHER"
+        },
+        {
+          "name": "/DebugProbesKt.bin",
+          "type": "OTHER",
+          "downloadSize": 782,
+          "installSize": 782
+        },
+        {
+          "name": "/res/drawable-anydpi-v24/ic_launcher_foreground.xml",
+          "type": "RESOURCE",
+          "downloadSize": 704,
+          "installSize": 704,
+          "resourceType": "DRAWABLE"
+        },
+        {
+          "name": "/kotlin/annotation/annotation.kotlin_builtins",
+          "type": "OTHER",
+          "downloadSize": 533,
+          "installSize": 533
+        },
+        {
+          "name": "/META-INF/BNDLTOOL.SF",
+          "type": "OTHER",
+          "downloadSize": 403,
+          "installSize": 403
+        },
+        {
+          "name": "/kotlin/internal/internal.kotlin_builtins",
+          "type": "OTHER",
+          "downloadSize": 357,
+          "installSize": 357
+        },
+        {
+          "name": "/res/drawable-anydpi-v24/$ic_launcher_foreground__0.xml",
+          "type": "RESOURCE",
+          "downloadSize": 347,
+          "installSize": 347,
+          "resourceType": "DRAWABLE"
+        },
+        {
+          "name": "/assets/dexopt/baseline.prof",
+          "type": "ASSET",
+          "downloadSize": 298,
+          "installSize": 293
+        },
+        {
+          "name": "/kotlin-tooling-metadata.json",
+          "type": "OTHER",
+          "downloadSize": 282,
+          "installSize": 282
+        },
+        {
+          "name": "/res/mipmap-anydpi-v26/ic_launcher.xml",
+          "type": "RESOURCE",
+          "downloadSize": 239,
+          "installSize": 239,
+          "resourceType": "OTHER"
+        },
+        {
+          "name": "/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+          "type": "RESOURCE",
+          "downloadSize": 239,
+          "installSize": 239,
+          "resourceType": "OTHER"
+        },
+        {
+          "name": "/META-INF/BNDLTOOL.SF",
+          "type": "OTHER",
+          "downloadSize": 231,
+          "installSize": 231
+        },
+        {
+          "name": "/META-INF/BNDLTOOL.SF",
+          "type": "OTHER",
+          "downloadSize": 210,
+          "installSize": 210
+        },
+        {
+          "name": "/kotlin/coroutines/coroutines.kotlin_builtins",
+          "type": "OTHER",
+          "downloadSize": 116,
+          "installSize": 116
+        },
+        {
+          "name": "/res/xml/data_extraction_rules.xml",
+          "type": "RESOURCE",
+          "downloadSize": 111,
+          "installSize": 111,
+          "resourceType": "OTHER"
+        },
+        {
+          "name": "/assets/dexopt/baseline.profm",
+          "type": "ASSET",
+          "downloadSize": 79,
+          "installSize": 77
+        },
+        {
+          "name": "/res/xml/backup_rules.xml",
+          "type": "RESOURCE",
+          "downloadSize": 76,
+          "installSize": 76,
+          "resourceType": "OTHER"
+        },
+        {
+          "name": "/META-INF/androidx.arch.core_core-runtime.version",
+          "type": "OTHER",
+          "downloadSize": 61,
+          "installSize": 61
+        },
+        {
+          "name": "/META-INF/com/android/build/gradle/app-metadata.properties",
+          "type": "OTHER",
+          "downloadSize": 53,
+          "installSize": 53
+        },
+        {
+          "name": "/META-INF/version-control-info.textproto",
+          "type": "OTHER",
+          "downloadSize": 48,
+          "installSize": 46
+        },
+        {
+          "name": "/META-INF/androidx.activity_activity-compose.version",
+          "type": "OTHER",
+          "downloadSize": 9,
+          "installSize": 7
+        },
+        {
+          "name": "/META-INF/androidx.activity_activity-ktx.version",
+          "type": "OTHER",
+          "downloadSize": 9,
+          "installSize": 7
+        },
+        {
+          "name": "/META-INF/androidx.activity_activity.version",
+          "type": "OTHER",
+          "downloadSize": 9,
+          "installSize": 7
+        },
+        {
+          "name": "/META-INF/androidx.core_core-ktx.version",
+          "type": "OTHER",
+          "downloadSize": 9,
+          "installSize": 7
+        },
+        {
+          "name": "/META-INF/androidx.core_core.version",
+          "type": "OTHER",
+          "downloadSize": 9,
+          "installSize": 7
+        },
+        {
+          "name": "/META-INF/androidx.annotation_annotation-experimental.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.autofill_autofill.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.compose.animation_animation-core.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.compose.animation_animation.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.compose.foundation_foundation-layout.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.compose.foundation_foundation.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.compose.material3_material3.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.compose.material_material-ripple.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.compose.runtime_runtime-annotation.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.compose.runtime_runtime-saveable.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.compose.runtime_runtime.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.compose.ui_ui-geometry.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.compose.ui_ui-graphics.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.compose.ui_ui-text.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.compose.ui_ui-tooling-preview.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.compose.ui_ui-unit.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.compose.ui_ui-util.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.compose.ui_ui.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.core_core-viewtree.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.customview_customview-poolingcontainer.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.emoji2_emoji2.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.graphics_graphics-path.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.interpolator_interpolator.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.lifecycle_lifecycle-livedata-core.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.lifecycle_lifecycle-process.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.lifecycle_lifecycle-runtime-compose.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.lifecycle_lifecycle-runtime-ktx.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.lifecycle_lifecycle-runtime.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.lifecycle_lifecycle-viewmodel-ktx.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.lifecycle_lifecycle-viewmodel.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.profileinstaller_profileinstaller.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.savedstate_savedstate-compose.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.savedstate_savedstate-ktx.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.savedstate_savedstate.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.startup_startup-runtime.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.tracing_tracing.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/androidx.versionedparcelable_versionedparcelable.version",
+          "type": "OTHER",
+          "downloadSize": 8,
+          "installSize": 6
+        },
+        {
+          "name": "/META-INF/kotlinx_coroutines_android.version",
+          "type": "OTHER",
+          "downloadSize": 7,
+          "installSize": 5
+        },
+        {
+          "name": "/META-INF/kotlinx_coroutines_core.version",
+          "type": "OTHER",
+          "downloadSize": 7,
+          "installSize": 5
+        }
+      ]
+    },
+    {
+      "name": "androidx.core:core:1.17.0",
+      "type": "EXTERNAL",
+      "downloadSize": 15618,
+      "installSize": 23460,
+      "files": [
+        {
+          "name": "/res/layout-v21/notification_template_custom_big.xml",
+          "type": "RESOURCE",
+          "downloadSize": 785,
+          "installSize": 785,
+          "resourceType": "LAYOUT"
+        },
+        {
+          "name": "/res/drawable/ic_call_decline.xml",
+          "type": "RESOURCE",
+          "downloadSize": 734,
+          "installSize": 734,
+          "resourceType": "DRAWABLE"
+        },
+        {
+          "name": "/res/drawable/ic_call_decline_low.xml",
+          "type": "RESOURCE",
+          "downloadSize": 712,
+          "installSize": 712,
+          "resourceType": "DRAWABLE"
+        },
+        {
+          "name": "/res/drawable/ic_call_answer.xml",
+          "type": "RESOURCE",
+          "downloadSize": 663,
+          "installSize": 663,
+          "resourceType": "DRAWABLE"
+        },
+        {
+          "name": "/res/drawable/ic_call_answer_low.xml",
+          "type": "RESOURCE",
+          "downloadSize": 644,
+          "installSize": 644,
+          "resourceType": "DRAWABLE"
+        },
+        {
+          "name": "androidx.core.graphics.TypefaceCompatApi26Impl",
+          "type": "CLASS",
+          "downloadSize": 622,
+          "installSize": 1326
+        },
+        {
+          "name": "androidx.core.provider.FontProvider",
+          "type": "CLASS",
+          "downloadSize": 614,
+          "installSize": 1309
+        },
+        {
+          "name": "/res/layout-v21/notification_action_tombstone.xml",
+          "type": "RESOURCE",
+          "downloadSize": 536,
+          "installSize": 536,
+          "resourceType": "LAYOUT"
+        },
+        {
+          "name": "androidx.core.graphics.TypefaceCompatApi29Impl",
+          "type": "CLASS",
+          "downloadSize": 523,
+          "installSize": 1115
+        },
+        {
+          "name": "/res/layout-v21/notification_action.xml",
+          "type": "RESOURCE",
+          "downloadSize": 485,
+          "installSize": 485,
+          "resourceType": "LAYOUT"
+        },
+        {
+          "name": "/res/drawable-v21/notification_action_background.xml",
+          "type": "RESOURCE",
+          "downloadSize": 467,
+          "installSize": 467,
+          "resourceType": "DRAWABLE"
+        },
+        {
+          "name": "androidx.core.graphics.drawable.IconCompat",
+          "type": "CLASS",
+          "downloadSize": 454,
+          "installSize": 968
+        },
+        {
+          "name": "androidx.core.graphics.drawable.IconCompatParcelizer",
+          "type": "CLASS",
+          "downloadSize": 432,
+          "installSize": 921
+        },
+        {
+          "name": "/res/drawable/ic_call_answer_video.xml",
+          "type": "RESOURCE",
+          "downloadSize": 421,
+          "installSize": 421,
+          "resourceType": "DRAWABLE"
+        },
+        {
+          "name": "/res/layout-v21/notification_template_icon_group.xml",
+          "type": "RESOURCE",
+          "downloadSize": 419,
+          "installSize": 419,
+          "resourceType": "LAYOUT"
+        },
+        {
+          "name": "/res/layout/ime_secondary_split_test_activity.xml",
+          "type": "RESOURCE",
+          "downloadSize": 416,
+          "installSize": 416,
+          "resourceType": "LAYOUT"
+        },
+        {
+          "name": "/res/drawable/ic_call_answer_video_low.xml",
+          "type": "RESOURCE",
+          "downloadSize": 401,
+          "installSize": 401,
+          "resourceType": "DRAWABLE"
+        },
+        {
+          "name": "androidx.core.provider.FontRequest",
+          "type": "CLASS",
+          "downloadSize": 342,
+          "installSize": 730
+        },
+        {
+          "name": "androidx.core.provider.FontProvider$ContentQueryWrapperApi16Impl",
+          "type": "CLASS",
+          "downloadSize": 325,
+          "installSize": 693
+        },
+        {
+          "name": "androidx.core.app.RemoteActionCompatParcelizer",
+          "type": "CLASS",
+          "downloadSize": 321,
+          "installSize": 684
+        },
+        {
+          "name": "/res/layout/custom_dialog.xml",
+          "type": "RESOURCE",
+          "downloadSize": 309,
+          "installSize": 309,
+          "resourceType": "LAYOUT"
+        },
+        {
+          "name": "androidx.core.graphics.TypefaceCompatApi24Impl",
+          "type": "CLASS",
+          "downloadSize": 272,
+          "installSize": 580
+        },
+        {
+          "name": "/res/layout/notification_template_part_time.xml",
+          "type": "RESOURCE",
+          "downloadSize": 260,
+          "installSize": 260,
+          "resourceType": "LAYOUT"
+        },
+        {
+          "name": "/res/layout/notification_template_part_chronometer.xml",
+          "type": "RESOURCE",
+          "downloadSize": 259,
+          "installSize": 259,
+          "resourceType": "LAYOUT"
+        },
+        {
+          "name": "/res/drawable-hdpi-v4/notification_oversize_large_icon_bg.png",
+          "type": "RESOURCE",
+          "downloadSize": 252,
+          "installSize": 909,
+          "resourceType": "DRAWABLE"
+        },
+        {
+          "name": "/res/drawable/notification_bg.xml",
+          "type": "RESOURCE",
+          "downloadSize": 252,
+          "installSize": 252,
+          "resourceType": "DRAWABLE"
+        },
+        {
+          "name": "/res/drawable/notification_bg_low.xml",
+          "type": "RESOURCE",
+          "downloadSize": 252,
+          "installSize": 252,
+          "resourceType": "DRAWABLE"
+        },
+        {
+          "name": "android.support.v4.app.RemoteActionCompatParcelizer",
+          "type": "CLASS",
+          "downloadSize": 248,
+          "installSize": 529
+        },
+        {
+          "name": "android.support.v4.graphics.drawable.IconCompatParcelizer",
+          "type": "CLASS",
+          "downloadSize": 248,
+          "installSize": 529
+        },
+        {
+          "name": "androidx.core.provider.FontProvider$ProviderCacheKey",
+          "type": "CLASS",
+          "downloadSize": 213,
+          "installSize": 453
+        },
+        {
+          "name": "/res/layout/ime_base_split_test_activity.xml",
+          "type": "RESOURCE",
+          "downloadSize": 201,
+          "installSize": 201,
+          "resourceType": "LAYOUT"
+        },
+        {
+          "name": "androidx.core.graphics.TypefaceCompatApi28Impl",
+          "type": "CLASS",
+          "downloadSize": 200,
+          "installSize": 426
+        },
+        {
+          "name": "androidx.core.provider.FontProvider$ContentQueryWrapperApi24Impl$$ExternalSyntheticAutoCloseableForwarder0",
+          "type": "CLASS",
+          "downloadSize": 188,
+          "installSize": 400
+        },
+        {
+          "name": "/res/drawable/notification_icon_background.xml",
+          "type": "RESOURCE",
+          "downloadSize": 184,
+          "installSize": 184,
+          "resourceType": "DRAWABLE"
+        },
+        {
+          "name": "/res/drawable/notification_tile_bg.xml",
+          "type": "RESOURCE",
+          "downloadSize": 172,
+          "installSize": 172,
+          "resourceType": "DRAWABLE"
+        },
+        {
+          "name": "/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png",
+          "type": "RESOURCE",
+          "downloadSize": 169,
+          "installSize": 252,
+          "resourceType": "DRAWABLE"
+        },
+        {
+          "name": "/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png",
+          "type": "RESOURCE",
+          "downloadSize": 164,
+          "installSize": 247,
+          "resourceType": "DRAWABLE"
+        },
+        {
+          "name": "androidx.core.graphics.TypefaceCompat",
+          "type": "CLASS",
+          "downloadSize": 147,
+          "installSize": 313
+        },
+        {
+          "name": "androidx.core.os.TraceCompat",
+          "type": "CLASS",
+          "downloadSize": 141,
+          "installSize": 301
+        },
+        {
+          "name": "androidx.core.graphics.TypefaceCompatApi21Impl",
+          "type": "CLASS",
+          "downloadSize": 139,
+          "installSize": 297
+        },
+        {
+          "name": "androidx.core.graphics.TypefaceCompatApi31Impl",
+          "type": "CLASS",
+          "downloadSize": 138,
+          "installSize": 294
+        },
+        {
+          "name": "/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png",
+          "type": "RESOURCE",
+          "downloadSize": 137,
+          "installSize": 221,
+          "resourceType": "DRAWABLE"
+        },
+        {
+          "name": "/res/drawable-xhdpi-v4/notification_bg_normal.9.png",
+          "type": "RESOURCE",
+          "downloadSize": 137,
+          "installSize": 221,
+          "resourceType": "DRAWABLE"
+        },
+        {
+          "name": "/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png",
+          "type": "RESOURCE",
+          "downloadSize": 137,
+          "installSize": 138,
+          "resourceType": "DRAWABLE"
+        },
+        {
+          "name": "androidx.core.app.RemoteActionCompat",
+          "type": "CLASS",
+          "downloadSize": 118,
+          "installSize": 251
+        },
+        {
+          "name": "androidx.core.app.CoreComponentFactory",
+          "type": "CLASS",
+          "downloadSize": 105,
+          "installSize": 225
+        },
+        {
+          "name": "androidx.core.graphics.drawable.IconCompat$Api28Impl",
+          "type": "CLASS",
+          "downloadSize": 88,
+          "installSize": 188
+        },
+        {
+          "name": "androidx.core.provider.FontProvider$$ExternalSyntheticLambda0",
+          "type": "CLASS",
+          "downloadSize": 81,
+          "installSize": 173
+        },
+        {
+          "name": "androidx.core.provider.FontsContractCompat$FontInfo",
+          "type": "CLASS",
+          "downloadSize": 45,
+          "installSize": 96
+        },
+        {
+          "name": "androidx.core.provider.FontsContractCompat$FontFamilyResult",
+          "type": "CLASS",
+          "downloadSize": 40,
+          "installSize": 85
+        },
+        {
+          "name": "androidx.core.graphics.TypefaceCompat$$ExternalSyntheticApiModelOutline0",
+          "type": "CLASS",
+          "downloadSize": 6,
+          "installSize": 14
+        }
+      ]
+    },
+    {
+      "name": "androidx.collection:collection-jvm:1.5.0",
+      "type": "EXTERNAL",
+      "downloadSize": 10055,
+      "installSize": 21430,
+      "files": [
+        {
+          "name": "androidx.collection.SimpleArrayMap",
+          "type": "CLASS",
+          "downloadSize": 2138,
+          "installSize": 4556
+        },
+        {
+          "name": "androidx.collection.ArraySet",
+          "type": "CLASS",
+          "downloadSize": 1578,
+          "installSize": 3362
+        },
+        {
+          "name": "androidx.collection.ArrayMap$KeySet",
+          "type": "CLASS",
+          "downloadSize": 1304,
+          "installSize": 2778
+        },
+        {
+          "name": "androidx.collection.ArrayMap$ValueCollection",
+          "type": "CLASS",
+          "downloadSize": 1121,
+          "installSize": 2389
+        },
+        {
+          "name": "androidx.collection.ArrayMap$MapIterator",
+          "type": "CLASS",
+          "downloadSize": 1027,
+          "installSize": 2188
+        },
+        {
+          "name": "androidx.collection.internal.Lock",
+          "type": "CLASS",
+          "downloadSize": 726,
+          "installSize": 1548
+        },
+        {
+          "name": "androidx.collection.ArrayMap",
+          "type": "CLASS",
+          "downloadSize": 600,
+          "installSize": 1280
+        },
+        {
+          "name": "androidx.collection.LruCache",
+          "type": "CLASS",
+          "downloadSize": 478,
+          "installSize": 1019
+        },
+        {
+          "name": "androidx.collection.ArrayMap$KeyIterator",
+          "type": "CLASS",
+          "downloadSize": 408,
+          "installSize": 869
+        },
+        {
+          "name": "androidx.collection.internal.ContainerHelpersKt",
+          "type": "CLASS",
+          "downloadSize": 388,
+          "installSize": 828
+        },
+        {
+          "name": "androidx.collection.ArrayMap$EntrySet",
+          "type": "CLASS",
+          "downloadSize": 287,
+          "installSize": 613
+        }
+      ]
+    },
+    {
+      "name": "org.jetbrains.kotlin:kotlin-stdlib:2.2.20",
+      "type": "EXTERNAL",
+      "downloadSize": 7047,
+      "installSize": 15021,
+      "files": [
+        {
+          "name": "kotlin.collections.EmptyList",
+          "type": "CLASS",
+          "downloadSize": 1618,
+          "installSize": 3447
+        },
+        {
+          "name": "kotlin.collections.AbstractList",
+          "type": "CLASS",
+          "downloadSize": 1604,
+          "installSize": 3419
+        },
+        {
+          "name": "kotlin.collections.EmptyIterator",
+          "type": "CLASS",
+          "downloadSize": 956,
+          "installSize": 2038
+        },
+        {
+          "name": "kotlin.jvm.internal.Intrinsics",
+          "type": "CLASS",
+          "downloadSize": 739,
+          "installSize": 1574
+        },
+        {
+          "name": "kotlin.collections.AbstractList$ListIteratorImpl",
+          "type": "CLASS",
+          "downloadSize": 651,
+          "installSize": 1389
+        },
+        {
+          "name": "kotlin.enums.EnumEntriesList",
+          "type": "CLASS",
+          "downloadSize": 547,
+          "installSize": 1166
+        },
+        {
+          "name": "kotlin.collections.AbstractList$SubList",
+          "type": "CLASS",
+          "downloadSize": 465,
+          "installSize": 991
+        },
+        {
+          "name": "kotlin.collections.AbstractList$IteratorImpl",
+          "type": "CLASS",
+          "downloadSize": 400,
+          "installSize": 852
+        },
+        {
+          "name": "kotlin.collections.ArraysKt___ArraysJvmKt",
+          "type": "CLASS",
+          "downloadSize": 60,
+          "installSize": 129
+        },
+        {
+          "name": "kotlin.enums.EnumEntries",
+          "type": "CLASS",
+          "downloadSize": 7,
+          "installSize": 16
+        }
+      ]
+    },
+    {
+      "name": "androidx.profileinstaller:profileinstaller:1.4.0",
+      "type": "EXTERNAL",
+      "downloadSize": 6825,
+      "installSize": 14550,
+      "files": [
+        {
+          "name": "androidx.profileinstaller.ProfileInstaller",
+          "type": "CLASS",
+          "downloadSize": 3999,
+          "installSize": 8520
+        },
+        {
+          "name": "androidx.profileinstaller.ProfileVerifier",
+          "type": "CLASS",
+          "downloadSize": 496,
+          "installSize": 1057
+        },
+        {
+          "name": "androidx.profileinstaller.ProfileVerifier$Cache",
+          "type": "CLASS",
+          "downloadSize": 441,
+          "installSize": 939
+        },
+        {
+          "name": "androidx.profileinstaller.DeviceProfileWriter$$ExternalSyntheticLambda0",
+          "type": "CLASS",
+          "downloadSize": 303,
+          "installSize": 647
+        },
+        {
+          "name": "androidx.profileinstaller.ProfileInstallerInitializer",
+          "type": "CLASS",
+          "downloadSize": 300,
+          "installSize": 640
+        },
+        {
+          "name": "androidx.profileinstaller.ProfileInstallReceiver",
+          "type": "CLASS",
+          "downloadSize": 272,
+          "installSize": 580
+        },
+        {
+          "name": "androidx.profileinstaller.DeviceProfileWriter",
+          "type": "CLASS",
+          "downloadSize": 210,
+          "installSize": 449
+        },
+        {
+          "name": "androidx.profileinstaller.WritableFileSection",
+          "type": "CLASS",
+          "downloadSize": 201,
+          "installSize": 428
+        },
+        {
+          "name": "androidx.profileinstaller.ProfileInstallerInitializer$$ExternalSyntheticLambda1",
+          "type": "CLASS",
+          "downloadSize": 194,
+          "installSize": 414
+        },
+        {
+          "name": "androidx.profileinstaller.ProfileInstallerInitializer$$ExternalSyntheticLambda0",
+          "type": "CLASS",
+          "downloadSize": 174,
+          "installSize": 371
+        },
+        {
+          "name": "androidx.profileinstaller.ProfileInstallReceiver$$ExternalSyntheticLambda0",
+          "type": "CLASS",
+          "downloadSize": 88,
+          "installSize": 188
+        },
+        {
+          "name": "androidx.profileinstaller.ProfileVerifier$Api33Impl",
+          "type": "CLASS",
+          "downloadSize": 74,
+          "installSize": 159
+        },
+        {
+          "name": "androidx.profileinstaller.DexProfileData",
+          "type": "CLASS",
+          "downloadSize": 49,
+          "installSize": 106
+        },
+        {
+          "name": "androidx.profileinstaller.ProfileInstaller$DiagnosticsCallback",
+          "type": "CLASS",
+          "downloadSize": 18,
+          "installSize": 38
+        },
+        {
+          "name": "androidx.profileinstaller.FileSectionType$EnumUnboxingLocalUtility",
+          "type": "CLASS",
+          "downloadSize": 6,
+          "installSize": 14
+        }
+      ]
+    },
+    {
+      "name": "androidx.emoji2:emoji2:1.4.0",
+      "type": "EXTERNAL",
+      "downloadSize": 5578,
+      "installSize": 11900,
+      "files": [
+        {
+          "name": "androidx.emoji2.text.EmojiCompat",
+          "type": "CLASS",
+          "downloadSize": 596,
+          "installSize": 1270
+        },
+        {
+          "name": "androidx.emoji2.text.FontRequestEmojiCompatConfig$FontRequestMetadataLoader",
+          "type": "CLASS",
+          "downloadSize": 543,
+          "installSize": 1157
+        },
+        {
+          "name": "androidx.emoji2.text.TypefaceEmojiRasterizer",
+          "type": "CLASS",
+          "downloadSize": 534,
+          "installSize": 1138
+        },
+        {
+          "name": "androidx.emoji2.text.EmojiCompatInitializer",
+          "type": "CLASS",
+          "downloadSize": 492,
+          "installSize": 1049
+        },
+        {
+          "name": "androidx.emoji2.text.EmojiCompat$CompatInternal19$1",
+          "type": "CLASS",
+          "downloadSize": 389,
+          "installSize": 829
+        },
+        {
+          "name": "androidx.emoji2.text.EmojiCompatInitializer$BackgroundDefaultLoader$$ExternalSyntheticLambda0",
+          "type": "CLASS",
+          "downloadSize": 329,
+          "installSize": 701
+        },
+        {
+          "name": "androidx.emoji2.text.EmojiCompat$ListenerDispatcher",
+          "type": "CLASS",
+          "downloadSize": 314,
+          "installSize": 670
+        },
+        {
+          "name": "androidx.emoji2.text.EmojiProcessor$ProcessorSm",
+          "type": "CLASS",
+          "downloadSize": 312,
+          "installSize": 666
+        },
+        {
+          "name": "androidx.emoji2.text.MetadataRepo$Node",
+          "type": "CLASS",
+          "downloadSize": 293,
+          "installSize": 625
+        },
+        {
+          "name": "androidx.emoji2.text.EmojiCompatInitializer$BackgroundDefaultLoader$1",
+          "type": "CLASS",
+          "downloadSize": 249,
+          "installSize": 531
+        },
+        {
+          "name": "androidx.emoji2.text.FontRequestEmojiCompatConfig",
+          "type": "CLASS",
+          "downloadSize": 203,
+          "installSize": 434
+        },
+        {
+          "name": "androidx.emoji2.text.flatbuffer.Table",
+          "type": "CLASS",
+          "downloadSize": 202,
+          "installSize": 431
+        },
+        {
+          "name": "androidx.emoji2.text.ConcurrencyHelpers$$ExternalSyntheticLambda0",
+          "type": "CLASS",
+          "downloadSize": 174,
+          "installSize": 372
+        },
+        {
+          "name": "androidx.emoji2.text.MetadataRepo",
+          "type": "CLASS",
+          "downloadSize": 164,
+          "installSize": 349
+        },
+        {
+          "name": "androidx.emoji2.text.EmojiCompatInitializer$LoadEmojiCompatRunnable",
+          "type": "CLASS",
+          "downloadSize": 132,
+          "installSize": 282
+        },
+        {
+          "name": "androidx.emoji2.text.EmojiExclusions$EmojiExclusions_Api34",
+          "type": "CLASS",
+          "downloadSize": 108,
+          "installSize": 231
+        },
+        {
+          "name": "androidx.emoji2.text.DefaultGlyphChecker",
+          "type": "CLASS",
+          "downloadSize": 106,
+          "installSize": 226
+        },
+        {
+          "name": "androidx.emoji2.text.EmojiCompat$CompatInternal19",
+          "type": "CLASS",
+          "downloadSize": 92,
+          "installSize": 196
+        },
+        {
+          "name": "androidx.emoji2.text.ConcurrencyHelpers$Handler28Impl$$ExternalSyntheticApiModelOutline0",
+          "type": "CLASS",
+          "downloadSize": 87,
+          "installSize": 187
+        },
+        {
+          "name": "androidx.emoji2.text.ConcurrencyHelpers$Handler28Impl",
+          "type": "CLASS",
+          "downloadSize": 87,
+          "installSize": 186
+        },
+        {
+          "name": "androidx.emoji2.text.EmojiCompatInitializer$1",
+          "type": "CLASS",
+          "downloadSize": 75,
+          "installSize": 160
+        },
+        {
+          "name": "androidx.emoji2.text.DefaultEmojiCompatConfig$DefaultEmojiCompatConfigHelper_API28",
+          "type": "CLASS",
+          "downloadSize": 72,
+          "installSize": 154
+        },
+        {
+          "name": "androidx.emoji2.text.EmojiCompat$MetadataRepoLoader",
+          "type": "CLASS",
+          "downloadSize": 13,
+          "installSize": 28
+        },
+        {
+          "name": "androidx.emoji2.text.flatbuffer.MetadataItem",
+          "type": "CLASS",
+          "downloadSize": 6,
+          "installSize": 14
+        },
+        {
+          "name": "androidx.emoji2.text.flatbuffer.MetadataList",
+          "type": "CLASS",
+          "downloadSize": 6,
+          "installSize": 14
+        }
+      ]
+    },
+    {
+      "name": "androidx.graphics:graphics-path:1.0.1",
+      "type": "EXTERNAL",
+      "downloadSize": 4609,
+      "installSize": 10658,
+      "files": [
+        {
+          "name": "/lib/arm64-v8a/libandroidx.graphics.path.so",
+          "type": "NATIVE_LIB",
+          "downloadSize": 4346,
+          "installSize": 10096
+        },
+        {
+          "name": "androidx.graphics.path.PathIteratorPreApi34Impl",
+          "type": "CLASS",
+          "downloadSize": 249,
+          "installSize": 531
+        },
+        {
+          "name": "androidx.graphics.path.ConicConverter",
+          "type": "CLASS",
+          "downloadSize": 14,
+          "installSize": 31
+        }
+      ]
+    },
+    {
+      "name": "androidx.lifecycle:lifecycle-runtime-android:2.9.4",
+      "type": "EXTERNAL",
+      "downloadSize": 3102,
+      "installSize": 6613,
+      "files": [
+        {
+          "name": "androidx.lifecycle.ReportFragment$LifecycleCallbacks",
+          "type": "CLASS",
+          "downloadSize": 1311,
+          "installSize": 2793
+        },
+        {
+          "name": "androidx.lifecycle.ReportFragment",
+          "type": "CLASS",
+          "downloadSize": 795,
+          "installSize": 1694
+        },
+        {
+          "name": "androidx.lifecycle.LifecycleRegistry",
+          "type": "CLASS",
+          "downloadSize": 760,
+          "installSize": 1620
+        },
+        {
+          "name": "androidx.lifecycle.LifecycleRegistry$ObserverWithState",
+          "type": "CLASS",
+          "downloadSize": 83,
+          "installSize": 177
+        },
+        {
+          "name": "androidx.lifecycle.ReportFragment$Companion",
+          "type": "CLASS",
+          "downloadSize": 77,
+          "installSize": 164
+        },
+        {
+          "name": "androidx.lifecycle.ReportFragment$LifecycleCallbacks$Companion$$ExternalSyntheticApiModelOutline0",
+          "type": "CLASS",
+          "downloadSize": 70,
+          "installSize": 151
+        },
+        {
+          "name": "androidx.lifecycle.ReportFragment$LifecycleCallbacks$Companion",
+          "type": "CLASS",
+          "downloadSize": 6,
+          "installSize": 14
+        }
+      ]
+    },
+    {
+      "name": "androidx.concurrent:concurrent-futures:1.1.0",
+      "type": "EXTERNAL",
+      "downloadSize": 3034,
+      "installSize": 6468,
+      "files": [
+        {
+          "name": "androidx.concurrent.futures.AbstractResolvableFuture",
+          "type": "CLASS",
+          "downloadSize": 1303,
+          "installSize": 2776
+        },
+        {
+          "name": "androidx.concurrent.futures.AbstractResolvableFuture$SafeAtomicHelper",
+          "type": "CLASS",
+          "downloadSize": 621,
+          "installSize": 1323
+        },
+        {
+          "name": "androidx.concurrent.futures.AbstractResolvableFuture$SynchronizedHelper",
+          "type": "CLASS",
+          "downloadSize": 589,
+          "installSize": 1254
+        },
+        {
+          "name": "androidx.concurrent.futures.AbstractResolvableFuture$Waiter",
+          "type": "CLASS",
+          "downloadSize": 214,
+          "installSize": 457
+        },
+        {
+          "name": "androidx.concurrent.futures.AbstractResolvableFuture$Cancellation",
+          "type": "CLASS",
+          "downloadSize": 184,
+          "installSize": 393
+        },
+        {
+          "name": "androidx.concurrent.futures.AbstractResolvableFuture$Listener",
+          "type": "CLASS",
+          "downloadSize": 111,
+          "installSize": 237
+        },
+        {
+          "name": "androidx.concurrent.futures.AbstractResolvableFuture$Failure",
+          "type": "CLASS",
+          "downloadSize": 6,
+          "installSize": 14
+        },
+        {
+          "name": "androidx.concurrent.futures.ResolvableFuture",
+          "type": "CLASS",
+          "downloadSize": 6,
+          "installSize": 14
+        }
+      ]
+    },
+    {
+      "name": "androidx.lifecycle:lifecycle-process:2.9.4",
+      "type": "EXTERNAL",
+      "downloadSize": 2893,
+      "installSize": 6174,
+      "files": [
+        {
+          "name": "androidx.lifecycle.EmptyActivityLifecycleCallbacks",
+          "type": "CLASS",
+          "downloadSize": 539,
+          "installSize": 1150
+        },
+        {
+          "name": "androidx.lifecycle.ProcessLifecycleOwner$attach$1",
+          "type": "CLASS",
+          "downloadSize": 414,
+          "installSize": 884
+        },
+        {
+          "name": "androidx.lifecycle.ProcessLifecycleOwner",
+          "type": "CLASS",
+          "downloadSize": 342,
+          "installSize": 730
+        },
+        {
+          "name": "androidx.lifecycle.ProcessLifecycleOwner$initializationListener$1",
+          "type": "CLASS",
+          "downloadSize": 338,
+          "installSize": 721
+        },
+        {
+          "name": "androidx.lifecycle.ProcessLifecycleInitializer",
+          "type": "CLASS",
+          "downloadSize": 329,
+          "installSize": 702
+        },
+        {
+          "name": "androidx.lifecycle.ProcessLifecycleOwner$$ExternalSyntheticLambda0",
+          "type": "CLASS",
+          "downloadSize": 296,
+          "installSize": 632
+        },
+        {
+          "name": "androidx.lifecycle.ProcessLifecycleOwner$attach$1$onActivityPreCreated$1",
+          "type": "CLASS",
+          "downloadSize": 267,
+          "installSize": 569
+        },
+        {
+          "name": "androidx.lifecycle.LifecycleDispatcher$DispatcherActivityCallback",
+          "type": "CLASS",
+          "downloadSize": 189,
+          "installSize": 403
+        },
+        {
+          "name": "androidx.lifecycle.LifecycleDispatcher",
+          "type": "CLASS",
+          "downloadSize": 109,
+          "installSize": 233
+        },
+        {
+          "name": "androidx.lifecycle.ProcessLifecycleOwner$Api29Impl",
+          "type": "CLASS",
+          "downloadSize": 70,
+          "installSize": 150
+        }
+      ]
+    },
+    {
+      "name": "androidx.arch.core:core-common:2.2.0",
+      "type": "EXTERNAL",
+      "downloadSize": 2206,
+      "installSize": 4700,
+      "files": [
+        {
+          "name": "androidx.arch.core.internal.SafeIterableMap$Entry",
+          "type": "CLASS",
+          "downloadSize": 655,
+          "installSize": 1395
+        },
+        {
+          "name": "androidx.arch.core.internal.SafeIterableMap$AscendingIterator",
+          "type": "CLASS",
+          "downloadSize": 588,
+          "installSize": 1252
+        },
+        {
+          "name": "androidx.arch.core.internal.FastSafeIterableMap",
+          "type": "CLASS",
+          "downloadSize": 558,
+          "installSize": 1190
+        },
+        {
+          "name": "androidx.arch.core.internal.SafeIterableMap$IteratorWithAdditions",
+          "type": "CLASS",
+          "downloadSize": 392,
+          "installSize": 835
+        },
+        {
+          "name": "androidx.arch.core.internal.SafeIterableMap$SupportRemove",
+          "type": "CLASS",
+          "downloadSize": 13,
+          "installSize": 28
+        }
+      ]
+    },
+    {
+      "name": "androidx.arch.core:core-runtime:2.2.0",
+      "type": "EXTERNAL",
+      "downloadSize": 1937,
+      "installSize": 4131,
+      "files": [
+        {
+          "name": "androidx.arch.core.executor.TaskExecutor",
+          "type": "CLASS",
+          "downloadSize": 1632,
+          "installSize": 3478
+        },
+        {
+          "name": "androidx.arch.core.executor.DefaultTaskExecutor$1",
+          "type": "CLASS",
+          "downloadSize": 200,
+          "installSize": 428
+        },
+        {
+          "name": "androidx.arch.core.executor.ArchTaskExecutor",
+          "type": "CLASS",
+          "downloadSize": 105,
+          "installSize": 225
+        }
+      ]
+    },
+    {
+      "name": "androidx.versionedparcelable:versionedparcelable:1.1.1",
+      "type": "EXTERNAL",
+      "downloadSize": 1879,
+      "installSize": 4008,
+      "files": [
+        {
+          "name": "androidx.versionedparcelable.VersionedParcel",
+          "type": "CLASS",
+          "downloadSize": 858,
+          "installSize": 1829
+        },
+        {
+          "name": "androidx.versionedparcelable.VersionedParcelParcel",
+          "type": "CLASS",
+          "downloadSize": 378,
+          "installSize": 806
+        },
+        {
+          "name": "androidx.versionedparcelable.ParcelImpl",
+          "type": "CLASS",
+          "downloadSize": 363,
+          "installSize": 774
+        },
+        {
+          "name": "androidx.versionedparcelable.ParcelImpl$1",
+          "type": "CLASS",
+          "downloadSize": 168,
+          "installSize": 358
+        },
+        {
+          "name": "androidx.versionedparcelable.CustomVersionedParcelable",
+          "type": "CLASS",
+          "downloadSize": 106,
+          "installSize": 227
+        },
+        {
+          "name": "androidx.versionedparcelable.VersionedParcelable",
+          "type": "CLASS",
+          "downloadSize": 6,
+          "installSize": 14
+        }
+      ]
+    },
+    {
+      "name": "androidx.lifecycle:lifecycle-common-jvm:2.9.4",
+      "type": "EXTERNAL",
+      "downloadSize": 1426,
+      "installSize": 3044,
+      "files": [
+        {
+          "name": "androidx.lifecycle.Lifecycle$Event",
+          "type": "CLASS",
+          "downloadSize": 469,
+          "installSize": 999
+        },
+        {
+          "name": "androidx.lifecycle.Lifecycle$State",
+          "type": "CLASS",
+          "downloadSize": 323,
+          "installSize": 689
+        },
+        {
+          "name": "androidx.lifecycle.DefaultLifecycleObserverAdapter",
+          "type": "CLASS",
+          "downloadSize": 206,
+          "installSize": 439
+        },
+        {
+          "name": "androidx.lifecycle.DefaultLifecycleObserverAdapter$WhenMappings",
+          "type": "CLASS",
+          "downloadSize": 150,
+          "installSize": 320
+        },
+        {
+          "name": "androidx.lifecycle.Lifecycle$Event$WhenMappings",
+          "type": "CLASS",
+          "downloadSize": 150,
+          "installSize": 320
+        },
+        {
+          "name": "androidx.lifecycle.Lifecycling",
+          "type": "CLASS",
+          "downloadSize": 110,
+          "installSize": 235
+        },
+        {
+          "name": "androidx.lifecycle.LifecycleObserver",
+          "type": "CLASS",
+          "downloadSize": 6,
+          "installSize": 14
+        },
+        {
+          "name": "androidx.lifecycle.Lifecycle$Event$Companion",
+          "type": "CLASS",
+          "downloadSize": 6,
+          "installSize": 14
+        },
+        {
+          "name": "androidx.lifecycle.LifecycleOwner",
+          "type": "CLASS",
+          "downloadSize": 6,
+          "installSize": 14
+        }
+      ]
+    },
+    {
+      "name": "androidx.startup:startup-runtime:1.1.1",
+      "type": "EXTERNAL",
+      "downloadSize": 1205,
+      "installSize": 2572,
+      "files": [
+        {
+          "name": "androidx.startup.InitializationProvider",
+          "type": "CLASS",
+          "downloadSize": 609,
+          "installSize": 1298
+        },
+        {
+          "name": "androidx.startup.AppInitializer",
+          "type": "CLASS",
+          "downloadSize": 573,
+          "installSize": 1222
+        },
+        {
+          "name": "androidx.startup.Initializer",
+          "type": "CLASS",
+          "downloadSize": 17,
+          "installSize": 38
+        },
+        {
+          "name": "androidx.startup.StartupException",
+          "type": "CLASS",
+          "downloadSize": 6,
+          "installSize": 14
+        }
+      ]
+    },
+    {
+      "name": "androidx.compose.ui:ui-android:1.9.3",
+      "type": "EXTERNAL",
+      "downloadSize": 362,
+      "installSize": 362,
+      "files": [
+        {
+          "name": "/res/color/vector_tint_theme_color.xml",
+          "type": "RESOURCE",
+          "downloadSize": 182,
+          "installSize": 182,
+          "resourceType": "OTHER"
+        },
+        {
+          "name": "/res/color/vector_tint_color.xml",
+          "type": "RESOURCE",
+          "downloadSize": 180,
+          "installSize": 180,
+          "resourceType": "OTHER"
+        }
+      ]
+    },
+    {
+      "name": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.1",
+      "type": "EXTERNAL",
+      "downloadSize": 306,
+      "installSize": 652,
+      "files": [
+        {
+          "name": "kotlinx.coroutines.flow.StateFlowImpl",
+          "type": "CLASS",
+          "downloadSize": 196,
+          "installSize": 418
+        },
+        {
+          "name": "kotlinx.coroutines.flow.internal.NullSurrogateKt",
+          "type": "CLASS",
+          "downloadSize": 110,
+          "installSize": 234
+        }
+      ]
+    },
+    {
+      "name": "androidx.tracing:tracing:1.2.0",
+      "type": "EXTERNAL",
+      "downloadSize": 105,
+      "installSize": 225,
+      "files": [
+        {
+          "name": "androidx.tracing.TraceApi29Impl",
+          "type": "CLASS",
+          "downloadSize": 105,
+          "installSize": 225
+        }
+      ]
+    },
+    {
+      "name": "androidx.annotation:annotation-jvm:1.9.1",
+      "type": "EXTERNAL",
+      "downloadSize": 13,
+      "installSize": 28,
+      "files": [
+        {
+          "name": "androidx.annotation.Keep",
+          "type": "CLASS",
+          "downloadSize": 13,
+          "installSize": 28
+        }
+      ]
+    }
+  ],
+  "dynamicFeatures": []
+}
