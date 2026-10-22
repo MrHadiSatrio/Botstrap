@@ -1,3 +1,4 @@
+import com.hadisatrio.libs.gradle.module.ModuleName
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
@@ -21,7 +22,7 @@ java {
 
 compose.desktop {
     application {
-        mainClass = "${providers.gradleProperty("project.group").get()}.${providers.gradleProperty("project.name").get()}.MainKt"
+        mainClass = "${ModuleName(project).packageName}.MainKt"
     }
 }
 

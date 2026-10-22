@@ -1,4 +1,4 @@
-package com.hadisatrio.template.kotlin.bootstrap
+package com.hadisatrio.apps.jvm.greeting
 
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application

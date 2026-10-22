@@ -30,7 +30,7 @@ plugins {
 
 dependencies {
     dokka(project(":app-android-greeting"))
-    dokka(project(":desktopApp"))
+    dokka(project(":app-jvm-greeting"))
     dokka(project(":macosApp"))
     dokka(project(":lib-kmp-greeting"))
     dokka(project(":lib-cmp-greeting"))
