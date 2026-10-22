@@ -25,6 +25,12 @@ kotlin {
         }
     }
 
+    jvm {
+        compilerOptions {
+            jvmTarget = JvmTarget.fromTarget(providers.gradleProperty("project.sdk.java.target").get())
+        }
+    }
+
     sourceSets {
         commonMain.dependencies {
             api(project(":sharedLogic"))

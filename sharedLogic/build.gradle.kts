@@ -24,6 +24,12 @@ kotlin {
         }
     }
 
+    jvm {
+        compilerOptions {
+            jvmTarget = JvmTarget.fromTarget(providers.gradleProperty("project.sdk.java.target").get())
+        }
+    }
+
     sourceSets {
         commonTest.dependencies {
             implementation(libs.kotlin.test)
