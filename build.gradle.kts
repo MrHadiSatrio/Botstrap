@@ -30,19 +30,7 @@ subprojects {
         autoCorrect = true
         buildUponDefaultConfig = true
         config.setFrom(rootProject.layout.projectDirectory.file("detekt.yml"))
-        source.setFrom(
-            "src/main/java",
-            "src/test/java",
-            "src/main/kotlin",
-            "src/test/kotlin",
-            "src/commonMain/kotlin",
-            "src/commonTest/kotlin",
-            "src/androidMain/kotlin",
-            "src/androidUnitTest/kotlin",
-            "src/androidTest/kotlin",
-            "src/iosMain/kotlin",
-            "src/iosTest/kotlin"
-        )
+        source.setFrom(fileTree("src") { include("*/java/**", "*/kotlin/**") })
     }
     dependencies {
         add("detektPlugins", libs.detekt.formatting)

@@ -3,10 +3,7 @@ comments:
     active: true
     excludes:
       - "**/test/**"
-      - "**/androidTest/**"
-      - "**/commonTest/**"
-      - "**/androidUnitTest/**"
-      - "**/iosTest/**"
+      - "**/*Test/**"
     searchInNestedClass: true
     searchInInnerClass: true
     searchInInnerObject: true
@@ -17,10 +14,7 @@ comments:
     active: true
     excludes:
       - "**/test/**"
-      - "**/androidTest/**"
-      - "**/commonTest/**"
-      - "**/androidUnitTest/**"
-      - "**/iosTest/**"
+      - "**/*Test/**"
     searchProtectedFunction: false
   OutdatedDocumentation:
     active: true
