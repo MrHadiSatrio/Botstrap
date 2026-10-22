@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<report name="Kover Gradle Plugin XML report for :sharedLogic">
-<package name="com/hadisatrio/template/kotlin/bootstrap/greeting">
-<class name="com/hadisatrio/template/kotlin/bootstrap/greeting/Greeting" sourcefilename="Greeting.kt">
+<report name="Kover Gradle Plugin XML report for :lib-kmp-greeting">
+<package name="com/hadisatrio/libs/kmp/greeting">
+<class name="com/hadisatrio/libs/kmp/greeting/Greeting" sourcefilename="Greeting.kt">
 <method name="&lt;init>" desc="(Ljava/lang/String;)V">
 <counter type="INSTRUCTION" missed="0" covered="23"/>
 <counter type="BRANCH" missed="0" covered="2"/>

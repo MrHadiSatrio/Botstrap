@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<report name="Kover Gradle Plugin XML report for :androidApp">
-<package name="com/hadisatrio/template/kotlin/bootstrap">
-<class name="com/hadisatrio/template/kotlin/bootstrap/ComposableSingletons$MainActivityKt" sourcefilename="MainActivity.kt">
+<report name="Kover Gradle Plugin XML report for :app-android-greeting">
+<package name="com/hadisatrio/apps/android/greeting">
+<class name="com/hadisatrio/apps/android/greeting/ComposableSingletons$MainActivityKt" sourcefilename="MainActivity.kt">
 <method name="&lt;clinit>" desc="()V">
 <counter type="INSTRUCTION" missed="6" covered="0"/>
 <counter type="BRANCH" missed="0" covered="0"/>
 <counter type="LINE" missed="1" covered="0"/>
 </method>
-<method name="lambda_311842206$lambda$0" desc="(Landroidx/compose/runtime/Composer;I)Lkotlin/Unit;">
+<method name="lambda__1100532257$lambda$0" desc="(Landroidx/compose/runtime/Composer;I)Lkotlin/Unit;">
 <counter type="INSTRUCTION" missed="11" covered="0"/>
 <counter type="BRANCH" missed="0" covered="0"/>
 <counter type="LINE" missed="1" covered="0"/>
@@ -17,7 +17,7 @@
 <counter type="LINE" missed="2" covered="0"/>
 <counter type="METHOD" missed="2" covered="0"/>
 </class>
-<class name="com/hadisatrio/template/kotlin/bootstrap/MainActivity" sourcefilename="MainActivity.kt">
+<class name="com/hadisatrio/apps/android/greeting/MainActivity" sourcefilename="MainActivity.kt">
 <method name="onCreate" desc="(Landroid/os/Bundle;)V">
 <counter type="INSTRUCTION" missed="18" covered="0"/>
 <counter type="BRANCH" missed="0" covered="0"/>

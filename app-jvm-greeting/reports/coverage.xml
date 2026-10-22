@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<report name="Kover Gradle Plugin XML report for :desktopApp">
-<package name="com/hadisatrio/template/kotlin/bootstrap">
-<class name="com/hadisatrio/template/kotlin/bootstrap/ComposableSingletons$MainKt" sourcefilename="Main.kt">
-<method name="lambda_1955932752$lambda$0" desc="(Landroidx/compose/ui/window/FrameWindowScope;Landroidx/compose/runtime/Composer;I)Lkotlin/Unit;">
+<report name="Kover Gradle Plugin XML report for :app-jvm-greeting">
+<package name="com/hadisatrio/apps/jvm/greeting">
+<class name="com/hadisatrio/apps/jvm/greeting/ComposableSingletons$MainKt" sourcefilename="Main.kt">
+<method name="lambda__1121830845$lambda$0" desc="(Landroidx/compose/ui/window/FrameWindowScope;Landroidx/compose/runtime/Composer;I)Lkotlin/Unit;">
 <counter type="INSTRUCTION" missed="11" covered="0"/>
 <counter type="BRANCH" missed="0" covered="0"/>
 <counter type="LINE" missed="1" covered="0"/>
 </method>
-<method name="lambda_1895599074$lambda$0" desc="(Landroidx/compose/ui/window/ApplicationScope;Landroidx/compose/runtime/Composer;I)Lkotlin/Unit;">
+<method name="lambda__381334571$lambda$0" desc="(Landroidx/compose/ui/window/ApplicationScope;Landroidx/compose/runtime/Composer;I)Lkotlin/Unit;">
 <counter type="INSTRUCTION" missed="55" covered="0"/>
 <counter type="BRANCH" missed="0" covered="0"/>
 <counter type="LINE" missed="1" covered="0"/>
@@ -22,7 +22,7 @@
 <counter type="LINE" missed="3" covered="0"/>
 <counter type="METHOD" missed="3" covered="0"/>
 </class>
-<class name="com/hadisatrio/template/kotlin/bootstrap/MainKt" sourcefilename="Main.kt">
+<class name="com/hadisatrio/apps/jvm/greeting/MainKt" sourcefilename="Main.kt">
 <method name="main" desc="()V">
 <counter type="INSTRUCTION" missed="6" covered="0"/>
 <counter type="BRANCH" missed="0" covered="0"/>
