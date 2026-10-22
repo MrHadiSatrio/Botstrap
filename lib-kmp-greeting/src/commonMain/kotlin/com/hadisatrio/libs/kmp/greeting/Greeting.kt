@@ -1,4 +1,4 @@
-package com.hadisatrio.template.kotlin.bootstrap.greeting
+package com.hadisatrio.libs.kmp.greeting
 
 /**
  * A salutation to one addressee, by name.

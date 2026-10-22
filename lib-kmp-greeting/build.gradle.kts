@@ -1,3 +1,4 @@
+import com.hadisatrio.libs.gradle.module.ModuleName
 import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
@@ -11,7 +12,7 @@ plugins {
 
 kotlin {
     android {
-        namespace = "${providers.gradleProperty("project.group").get()}.${providers.gradleProperty("project.name").get()}.logic"
+        namespace = ModuleName(project).packageName
 
         compileSdk {
             version = release(providers.gradleProperty("project.sdk.android.compile").get().toInt())

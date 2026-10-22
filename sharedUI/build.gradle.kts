@@ -55,7 +55,7 @@ kotlin {
 
     sourceSets {
         commonMain.dependencies {
-            api(project(":sharedLogic"))
+            api(project(":lib-kmp-greeting"))
 
             implementation(libs.compose.foundation)
             implementation(libs.compose.material3)

@@ -32,7 +32,7 @@ dependencies {
     dokka(project(":androidApp"))
     dokka(project(":desktopApp"))
     dokka(project(":macosApp"))
-    dokka(project(":sharedLogic"))
+    dokka(project(":lib-kmp-greeting"))
     dokka(project(":sharedUI"))
     dokka(project(":webApp"))
 }

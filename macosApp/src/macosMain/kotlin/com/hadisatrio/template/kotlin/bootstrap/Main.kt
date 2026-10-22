@@ -1,7 +1,7 @@
 package com.hadisatrio.template.kotlin.bootstrap
 
 import androidx.compose.ui.window.Window
-import com.hadisatrio.template.kotlin.bootstrap.greeting.Greeting
+import com.hadisatrio.libs.kmp.greeting.Greeting
 import com.hadisatrio.template.kotlin.bootstrap.greeting.GreetingScreen
 import platform.AppKit.NSApp
 import platform.AppKit.NSApplication

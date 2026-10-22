@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import com.hadisatrio.template.kotlin.bootstrap.greeting.Greeting
+import com.hadisatrio.libs.kmp.greeting.Greeting
 import com.hadisatrio.template.kotlin.bootstrap.greeting.GreetingScreen
 
 /**
