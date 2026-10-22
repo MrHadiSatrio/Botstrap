@@ -41,6 +41,16 @@ kotlin {
         browser()
     }
 
+    listOf(
+        iosArm64(),
+        iosSimulatorArm64()
+    ).forEach { iosTarget ->
+        iosTarget.binaries.framework {
+            baseName = "SharedUI"
+            isStatic = true
+        }
+    }
+
     sourceSets {
         commonMain.dependencies {
             api(project(":sharedLogic"))
