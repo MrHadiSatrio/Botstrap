@@ -13,7 +13,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7A0000000000000000000200 /* Bootstrap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bootstrap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0000000000000000000200 /* Greeting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greeting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A0000000000000000000201 /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
 		7A0000000000000000000202 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7A0000000000000000000203 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 		7A0000000000000000000303 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7A0000000000000000000200 /* Bootstrap.app */,
+				7A0000000000000000000200 /* Greeting.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,7 +86,7 @@
 			);
 			name = iosApp;
 			productName = iosApp;
-			productReference = 7A0000000000000000000200 /* Bootstrap.app */;
+			productReference = 7A0000000000000000000200 /* Greeting.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */

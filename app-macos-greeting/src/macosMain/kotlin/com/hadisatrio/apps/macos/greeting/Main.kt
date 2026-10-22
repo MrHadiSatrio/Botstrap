@@ -11,7 +11,7 @@ import platform.AppKit.NSApplication
  */
 fun main() {
     NSApplication.sharedApplication()
-    Window(title = "Bootstrap") {
+    Window(title = "Greeting") {
         GreetingScreen(greeting = Greeting(name = "macOS"))
     }
     NSApp?.run()

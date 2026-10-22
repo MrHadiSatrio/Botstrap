@@ -9,7 +9,7 @@ import com.hadisatrio.libs.kmp.greeting.Greeting
  * Opens a window that shows a greeting.
  */
 fun main() = application {
-    Window(onCloseRequest = ::exitApplication, title = "Bootstrap") {
+    Window(onCloseRequest = ::exitApplication, title = "Greeting") {
         GreetingScreen(greeting = Greeting(name = "Desktop"))
     }
 }
