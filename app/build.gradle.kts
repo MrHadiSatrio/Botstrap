@@ -1,9 +1,7 @@
 import com.hadisatrio.libs.gradle.semver.LiteralSemver
-import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.detekt)
     alias(libs.plugins.kover)
@@ -45,13 +43,6 @@ android {
 
     buildFeatures {
         compose = true
-    }
-}
-
-kotlin {
-    compilerOptions {
-        val targetInt = project.properties["project.sdk.java.target"].toString().toInt()
-        jvmTarget = JvmTarget.values()[targetInt - 8]
     }
 }
 
