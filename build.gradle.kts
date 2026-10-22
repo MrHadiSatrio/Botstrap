@@ -33,6 +33,7 @@ dependencies {
     dokka(project(":desktopApp"))
     dokka(project(":sharedLogic"))
     dokka(project(":sharedUI"))
+    dokka(project(":webApp"))
 }
 
 allprojects {
