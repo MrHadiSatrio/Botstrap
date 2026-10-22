@@ -80,6 +80,17 @@
 <counter type="LINE" missed="6" covered="0"/>
 <counter type="METHOD" missed="1" covered="0"/>
 </class>
+<class name="com/hadisatrio/template/kotlin/bootstrap/ui/theme/WallpaperColorScheme_jvmKt" sourcefilename="WallpaperColorScheme.jvm.kt">
+<method name="wallpaperColorScheme" desc="(ZLandroidx/compose/material3/ColorScheme;Landroidx/compose/runtime/Composer;I)Landroidx/compose/material3/ColorScheme;">
+<counter type="INSTRUCTION" missed="14" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="1" covered="0"/>
+</method>
+<counter type="INSTRUCTION" missed="14" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="1" covered="0"/>
+<counter type="METHOD" missed="1" covered="0"/>
+</class>
 <sourcefile name="WallpaperColorScheme.android.kt">
 <line nr="11" mi="13" ci="0" mb="0" cb="0"/>
 <line nr="12" mi="7" ci="0" mb="2" cb="0"/>
@@ -142,11 +153,17 @@
 <counter type="BRANCH" missed="18" covered="0"/>
 <counter type="LINE" missed="23" covered="0"/>
 </sourcefile>
-<counter type="INSTRUCTION" missed="444" covered="0"/>
+<sourcefile name="WallpaperColorScheme.jvm.kt">
+<line nr="7" mi="14" ci="0" mb="0" cb="0"/>
+<counter type="INSTRUCTION" missed="14" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="1" covered="0"/>
+</sourcefile>
+<counter type="INSTRUCTION" missed="458" covered="0"/>
 <counter type="BRANCH" missed="24" covered="0"/>
-<counter type="LINE" missed="42" covered="0"/>
-<counter type="METHOD" missed="11" covered="0"/>
-<counter type="CLASS" missed="4" covered="0"/>
+<counter type="LINE" missed="43" covered="0"/>
+<counter type="METHOD" missed="12" covered="0"/>
+<counter type="CLASS" missed="5" covered="0"/>
 </package>
 <package name="com/hadisatrio/template/kotlin/bootstrap/greeting">
 <class name="com/hadisatrio/template/kotlin/bootstrap/greeting/ComposableSingletons$GreetingTextKt" sourcefilename="GreetingText.kt">
@@ -234,9 +251,9 @@
 <counter type="METHOD" missed="7" covered="0"/>
 <counter type="CLASS" missed="3" covered="0"/>
 </package>
-<counter type="INSTRUCTION" missed="748" covered="0"/>
+<counter type="INSTRUCTION" missed="762" covered="0"/>
 <counter type="BRANCH" missed="36" covered="0"/>
-<counter type="LINE" missed="59" covered="0"/>
-<counter type="METHOD" missed="18" covered="0"/>
-<counter type="CLASS" missed="7" covered="0"/>
+<counter type="LINE" missed="60" covered="0"/>
+<counter type="METHOD" missed="19" covered="0"/>
+<counter type="CLASS" missed="8" covered="0"/>
 </report>

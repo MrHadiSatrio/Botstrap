@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report name="Kover Gradle Plugin XML report for :desktopApp">
+<package name="com/hadisatrio/template/kotlin/bootstrap">
+<class name="com/hadisatrio/template/kotlin/bootstrap/ComposableSingletons$MainKt" sourcefilename="Main.kt">
+<method name="lambda_1955932752$lambda$0" desc="(Landroidx/compose/ui/window/FrameWindowScope;Landroidx/compose/runtime/Composer;I)Lkotlin/Unit;">
+<counter type="INSTRUCTION" missed="11" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="1" covered="0"/>
+</method>
+<method name="lambda_1895599074$lambda$0" desc="(Landroidx/compose/ui/window/ApplicationScope;Landroidx/compose/runtime/Composer;I)Lkotlin/Unit;">
+<counter type="INSTRUCTION" missed="55" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="1" covered="0"/>
+</method>
+<method name="&lt;clinit>" desc="()V">
+<counter type="INSTRUCTION" missed="6" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="1" covered="0"/>
+</method>
+<counter type="INSTRUCTION" missed="72" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="3" covered="0"/>
+<counter type="METHOD" missed="3" covered="0"/>
+</class>
+<class name="com/hadisatrio/template/kotlin/bootstrap/MainKt" sourcefilename="Main.kt">
+<method name="main" desc="()V">
+<counter type="INSTRUCTION" missed="6" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="1" covered="0"/>
+</method>
+<counter type="INSTRUCTION" missed="6" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="1" covered="0"/>
+<counter type="METHOD" missed="1" covered="0"/>
+</class>
+<sourcefile name="Main.kt">
+<line nr="11" mi="12" ci="0" mb="0" cb="0"/>
+<line nr="12" mi="55" ci="0" mb="0" cb="0"/>
+<line nr="13" mi="11" ci="0" mb="0" cb="0"/>
+<counter type="INSTRUCTION" missed="78" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="4" covered="0"/>
+</sourcefile>
+<counter type="INSTRUCTION" missed="78" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="4" covered="0"/>
+<counter type="METHOD" missed="4" covered="0"/>
+<counter type="CLASS" missed="2" covered="0"/>
+</package>
+<counter type="INSTRUCTION" missed="78" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="4" covered="0"/>
+<counter type="METHOD" missed="4" covered="0"/>
+<counter type="CLASS" missed="2" covered="0"/>
+</report>
