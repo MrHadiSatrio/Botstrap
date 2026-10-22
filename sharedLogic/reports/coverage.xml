@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report name="Kover Gradle Plugin XML report for :sharedLogic">
+<package name="com/hadisatrio/template/kotlin/bootstrap/greeting">
+<class name="com/hadisatrio/template/kotlin/bootstrap/greeting/Greeting" sourcefilename="Greeting.kt">
+<method name="&lt;init>" desc="(Ljava/lang/String;)V">
+<counter type="INSTRUCTION" missed="0" covered="23"/>
+<counter type="BRANCH" missed="0" covered="2"/>
+<counter type="LINE" missed="0" covered="4"/>
+</method>
+<method name="toString" desc="()Ljava/lang/String;">
+<counter type="INSTRUCTION" missed="0" covered="3"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="0" covered="1"/>
+</method>
+<counter type="INSTRUCTION" missed="0" covered="26"/>
+<counter type="BRANCH" missed="0" covered="2"/>
+<counter type="LINE" missed="0" covered="5"/>
+<counter type="METHOD" missed="0" covered="2"/>
+</class>
+<sourcefile name="Greeting.kt">
+<line nr="9" mi="0" ci="5" mb="0" cb="0"/>
+<line nr="11" mi="0" ci="1" mb="0" cb="0"/>
+<line nr="12" mi="0" ci="16" mb="0" cb="2"/>
+<line nr="13" mi="0" ci="1" mb="0" cb="0"/>
+<line nr="18" mi="0" ci="3" mb="0" cb="0"/>
+<counter type="INSTRUCTION" missed="0" covered="26"/>
+<counter type="BRANCH" missed="0" covered="2"/>
+<counter type="LINE" missed="0" covered="5"/>
+</sourcefile>
+<counter type="INSTRUCTION" missed="0" covered="26"/>
+<counter type="BRANCH" missed="0" covered="2"/>
+<counter type="LINE" missed="0" covered="5"/>
+<counter type="METHOD" missed="0" covered="2"/>
+<counter type="CLASS" missed="0" covered="1"/>
+</package>
+<counter type="INSTRUCTION" missed="0" covered="26"/>
+<counter type="BRANCH" missed="0" covered="2"/>
+<counter type="LINE" missed="0" covered="5"/>
+<counter type="METHOD" missed="0" covered="2"/>
+<counter type="CLASS" missed="0" covered="1"/>
+</report>

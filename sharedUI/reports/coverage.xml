@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report name="Kover Gradle Plugin XML report for :sharedUI">
+<package name="com/hadisatrio/template/kotlin/bootstrap/ui/theme">
+<class name="com/hadisatrio/template/kotlin/bootstrap/ui/theme/ColorKt" sourcefilename="Color.kt">
+<method name="getPink40" desc="()J">
+<counter type="INSTRUCTION" missed="4" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="1" covered="0"/>
+</method>
+<method name="getPurple40" desc="()J">
+<counter type="INSTRUCTION" missed="4" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="1" covered="0"/>
+</method>
+<method name="getPurple80" desc="()J">
+<counter type="INSTRUCTION" missed="4" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="1" covered="0"/>
+</method>
+<method name="getPurpleGrey40" desc="()J">
+<counter type="INSTRUCTION" missed="4" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="1" covered="0"/>
+</method>
+<method name="getPink80" desc="()J">
+<counter type="INSTRUCTION" missed="4" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="1" covered="0"/>
+</method>
+<method name="getPurpleGrey80" desc="()J">
+<counter type="INSTRUCTION" missed="4" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="1" covered="0"/>
+</method>
+<counter type="INSTRUCTION" missed="24" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="6" covered="0"/>
+<counter type="METHOD" missed="6" covered="0"/>
+</class>
+<class name="com/hadisatrio/template/kotlin/bootstrap/ui/theme/ThemeKt" sourcefilename="Theme.kt">
+<method name="BootstrapTheme" desc="(ZZLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V">
+<counter type="INSTRUCTION" missed="192" covered="0"/>
+<counter type="BRANCH" missed="18" covered="0"/>
+<counter type="LINE" missed="15" covered="0"/>
+</method>
+<method name="&lt;clinit>" desc="()V">
+<counter type="INSTRUCTION" missed="106" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="8" covered="0"/>
+</method>
+<counter type="INSTRUCTION" missed="298" covered="0"/>
+<counter type="BRANCH" missed="18" covered="0"/>
+<counter type="LINE" missed="23" covered="0"/>
+<counter type="METHOD" missed="2" covered="0"/>
+</class>
+<class name="com/hadisatrio/template/kotlin/bootstrap/ui/theme/TypeKt" sourcefilename="Type.kt">
+<method name="getTypography" desc="()Landroidx/compose/material3/Typography;">
+<counter type="INSTRUCTION" missed="21" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="1" covered="0"/>
+</method>
+<method name="&lt;clinit>" desc="()V">
+<counter type="INSTRUCTION" missed="45" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="6" covered="0"/>
+</method>
+<counter type="INSTRUCTION" missed="66" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="7" covered="0"/>
+<counter type="METHOD" missed="2" covered="0"/>
+</class>
+<class name="com/hadisatrio/template/kotlin/bootstrap/ui/theme/WallpaperColorScheme_androidKt" sourcefilename="WallpaperColorScheme.android.kt">
+<method name="wallpaperColorScheme" desc="(ZLandroidx/compose/material3/ColorScheme;Landroidx/compose/runtime/Composer;I)Landroidx/compose/material3/ColorScheme;">
+<counter type="INSTRUCTION" missed="56" covered="0"/>
+<counter type="BRANCH" missed="6" covered="0"/>
+<counter type="LINE" missed="6" covered="0"/>
+</method>
+<counter type="INSTRUCTION" missed="56" covered="0"/>
+<counter type="BRANCH" missed="6" covered="0"/>
+<counter type="LINE" missed="6" covered="0"/>
+<counter type="METHOD" missed="1" covered="0"/>
+</class>
+<sourcefile name="WallpaperColorScheme.android.kt">
+<line nr="11" mi="13" ci="0" mb="0" cb="0"/>
+<line nr="12" mi="7" ci="0" mb="2" cb="0"/>
+<line nr="13" mi="5" ci="0" mb="2" cb="0"/>
+<line nr="15" mi="14" ci="0" mb="0" cb="0"/>
+<line nr="16" mi="11" ci="0" mb="2" cb="0"/>
+<line nr="17" mi="6" ci="0" mb="0" cb="0"/>
+<counter type="INSTRUCTION" missed="56" covered="0"/>
+<counter type="BRANCH" missed="6" covered="0"/>
+<counter type="LINE" missed="6" covered="0"/>
+</sourcefile>
+<sourcefile name="Type.kt">
+<line nr="10" mi="21" ci="0" mb="0" cb="0"/>
+<line nr="11" mi="24" ci="0" mb="0" cb="0"/>
+<line nr="12" mi="5" ci="0" mb="0" cb="0"/>
+<line nr="13" mi="4" ci="0" mb="0" cb="0"/>
+<line nr="14" mi="4" ci="0" mb="0" cb="0"/>
+<line nr="15" mi="4" ci="0" mb="0" cb="0"/>
+<line nr="16" mi="4" ci="0" mb="0" cb="0"/>
+<counter type="INSTRUCTION" missed="66" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="7" covered="0"/>
+</sourcefile>
+<sourcefile name="Color.kt">
+<line nr="7" mi="4" ci="0" mb="0" cb="0"/>
+<line nr="8" mi="4" ci="0" mb="0" cb="0"/>
+<line nr="9" mi="4" ci="0" mb="0" cb="0"/>
+<line nr="11" mi="4" ci="0" mb="0" cb="0"/>
+<line nr="12" mi="4" ci="0" mb="0" cb="0"/>
+<line nr="13" mi="4" ci="0" mb="0" cb="0"/>
+<counter type="INSTRUCTION" missed="24" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="6" covered="0"/>
+</sourcefile>
+<sourcefile name="Theme.kt">
+<line nr="11" mi="50" ci="0" mb="0" cb="0"/>
+<line nr="12" mi="1" ci="0" mb="0" cb="0"/>
+<line nr="13" mi="1" ci="0" mb="0" cb="0"/>
+<line nr="14" mi="1" ci="0" mb="0" cb="0"/>
+<line nr="17" mi="50" ci="0" mb="0" cb="0"/>
+<line nr="18" mi="1" ci="0" mb="0" cb="0"/>
+<line nr="19" mi="1" ci="0" mb="0" cb="0"/>
+<line nr="20" mi="1" ci="0" mb="0" cb="0"/>
+<line nr="41" mi="21" ci="0" mb="0" cb="0"/>
+<line nr="42" mi="12" ci="0" mb="0" cb="0"/>
+<line nr="44" mi="3" ci="0" mb="0" cb="0"/>
+<line nr="46" mi="94" ci="0" mb="14" cb="0"/>
+<line nr="47" mi="6" ci="0" mb="2" cb="0"/>
+<line nr="48" mi="14" ci="0" mb="2" cb="0"/>
+<line nr="49" mi="7" ci="0" mb="0" cb="0"/>
+<line nr="50" mi="3" ci="0" mb="0" cb="0"/>
+<line nr="51" mi="1" ci="0" mb="0" cb="0"/>
+<line nr="52" mi="2" ci="0" mb="0" cb="0"/>
+<line nr="54" mi="5" ci="0" mb="0" cb="0"/>
+<line nr="55" mi="2" ci="0" mb="0" cb="0"/>
+<line nr="56" mi="1" ci="0" mb="0" cb="0"/>
+<line nr="57" mi="8" ci="0" mb="0" cb="0"/>
+<line nr="59" mi="13" ci="0" mb="0" cb="0"/>
+<counter type="INSTRUCTION" missed="298" covered="0"/>
+<counter type="BRANCH" missed="18" covered="0"/>
+<counter type="LINE" missed="23" covered="0"/>
+</sourcefile>
+<counter type="INSTRUCTION" missed="444" covered="0"/>
+<counter type="BRANCH" missed="24" covered="0"/>
+<counter type="LINE" missed="42" covered="0"/>
+<counter type="METHOD" missed="11" covered="0"/>
+<counter type="CLASS" missed="4" covered="0"/>
+</package>
+<package name="com/hadisatrio/template/kotlin/bootstrap/greeting">
+<class name="com/hadisatrio/template/kotlin/bootstrap/greeting/ComposableSingletons$GreetingTextKt" sourcefilename="GreetingText.kt">
+<method name="lambda_73495641$lambda$0" desc="(Landroidx/compose/runtime/Composer;I)Lkotlin/Unit;">
+<counter type="INSTRUCTION" missed="13" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="1" covered="0"/>
+</method>
+<method name="&lt;clinit>" desc="()V">
+<counter type="INSTRUCTION" missed="6" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="1" covered="0"/>
+</method>
+<counter type="INSTRUCTION" missed="19" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="2" covered="0"/>
+<counter type="METHOD" missed="2" covered="0"/>
+</class>
+<class name="com/hadisatrio/template/kotlin/bootstrap/greeting/GreetingScreenKt" sourcefilename="GreetingScreen.kt">
+<method name="GreetingScreen$lambda$0" desc="(Lcom/hadisatrio/template/kotlin/bootstrap/greeting/Greeting;Landroidx/compose/runtime/Composer;I)Lkotlin/Unit;">
+<counter type="INSTRUCTION" missed="30" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="1" covered="0"/>
+</method>
+<method name="GreetingScreen$lambda$0$0" desc="(Lcom/hadisatrio/template/kotlin/bootstrap/greeting/Greeting;Landroidx/compose/foundation/layout/PaddingValues;Landroidx/compose/runtime/Composer;I)Lkotlin/Unit;">
+<counter type="INSTRUCTION" missed="13" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="3" covered="0"/>
+</method>
+<method name="GreetingScreen" desc="(Lcom/hadisatrio/template/kotlin/bootstrap/greeting/Greeting;Landroidx/compose/runtime/Composer;I)V">
+<counter type="INSTRUCTION" missed="76" covered="0"/>
+<counter type="BRANCH" missed="6" covered="0"/>
+<counter type="LINE" missed="3" covered="0"/>
+</method>
+<counter type="INSTRUCTION" missed="119" covered="0"/>
+<counter type="BRANCH" missed="6" covered="0"/>
+<counter type="LINE" missed="7" covered="0"/>
+<counter type="METHOD" missed="3" covered="0"/>
+</class>
+<class name="com/hadisatrio/template/kotlin/bootstrap/greeting/GreetingTextKt" sourcefilename="GreetingText.kt">
+<method name="GreetingTextPreview" desc="(Landroidx/compose/runtime/Composer;I)V">
+<counter type="INSTRUCTION" missed="48" covered="0"/>
+<counter type="BRANCH" missed="0" covered="0"/>
+<counter type="LINE" missed="3" covered="0"/>
+</method>
+<method name="GreetingText" desc="(Lcom/hadisatrio/template/kotlin/bootstrap/greeting/Greeting;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V">
+<counter type="INSTRUCTION" missed="118" covered="0"/>
+<counter type="BRANCH" missed="6" covered="0"/>
+<counter type="LINE" missed="5" covered="0"/>
+</method>
+<counter type="INSTRUCTION" missed="166" covered="0"/>
+<counter type="BRANCH" missed="6" covered="0"/>
+<counter type="LINE" missed="8" covered="0"/>
+<counter type="METHOD" missed="2" covered="0"/>
+</class>
+<sourcefile name="GreetingScreen.kt">
+<line nr="16" mi="48" ci="0" mb="6" cb="0"/>
+<line nr="17" mi="18" ci="0" mb="0" cb="0"/>
+<line nr="18" mi="30" ci="0" mb="0" cb="0"/>
+<line nr="19" mi="5" ci="0" mb="0" cb="0"/>
+<line nr="20" mi="1" ci="0" mb="0" cb="0"/>
+<line nr="21" mi="7" ci="0" mb="0" cb="0"/>
+<line nr="25" mi="10" ci="0" mb="0" cb="0"/>
+<counter type="INSTRUCTION" missed="119" covered="0"/>
+<counter type="BRANCH" missed="6" covered="0"/>
+<counter type="LINE" missed="7" covered="0"/>
+</sourcefile>
+<sourcefile name="GreetingText.kt">
+<line nr="15" mi="76" ci="0" mb="6" cb="0"/>
+<line nr="16" mi="5" ci="0" mb="0" cb="0"/>
+<line nr="17" mi="2" ci="0" mb="0" cb="0"/>
+<line nr="18" mi="23" ci="0" mb="0" cb="0"/>
+<line nr="20" mi="12" ci="0" mb="0" cb="0"/>
+<line nr="27" mi="34" ci="0" mb="0" cb="0"/>
+<line nr="28" mi="11" ci="0" mb="0" cb="0"/>
+<line nr="29" mi="13" ci="0" mb="0" cb="0"/>
+<line nr="31" mi="9" ci="0" mb="0" cb="0"/>
+<counter type="INSTRUCTION" missed="185" covered="0"/>
+<counter type="BRANCH" missed="6" covered="0"/>
+<counter type="LINE" missed="10" covered="0"/>
+</sourcefile>
+<counter type="INSTRUCTION" missed="304" covered="0"/>
+<counter type="BRANCH" missed="12" covered="0"/>
+<counter type="LINE" missed="17" covered="0"/>
+<counter type="METHOD" missed="7" covered="0"/>
+<counter type="CLASS" missed="3" covered="0"/>
+</package>
+<counter type="INSTRUCTION" missed="748" covered="0"/>
+<counter type="BRANCH" missed="36" covered="0"/>
+<counter type="LINE" missed="59" covered="0"/>
+<counter type="METHOD" missed="18" covered="0"/>
+<counter type="CLASS" missed="7" covered="0"/>
+</report>
