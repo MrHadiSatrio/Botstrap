@@ -14,7 +14,7 @@ plugins {
 }
 
 dependencies {
-    dokka(project(":app"))
+    dokka(project(":androidApp"))
 }
 
 allprojects {

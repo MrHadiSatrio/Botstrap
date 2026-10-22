@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = settings.providers.gradleProperty("project.name").get()
-include(":app")
+include(":androidApp")
