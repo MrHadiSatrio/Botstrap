@@ -22,4 +22,5 @@ dependencyResolutionManagement {
 
 rootProject.name = settings.providers.gradleProperty("project.name").get()
 include(":androidApp")
+include(":sharedLogic")
 include(":sharedUI")

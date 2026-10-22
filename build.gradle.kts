@@ -17,6 +17,7 @@ plugins {
 
 dependencies {
     dokka(project(":androidApp"))
+    dokka(project(":sharedLogic"))
     dokka(project(":sharedUI"))
 }
 
