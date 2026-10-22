@@ -1,4 +1,4 @@
-package com.hadisatrio.template.kotlin.bootstrap
+package com.hadisatrio.apps.android.greeting
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

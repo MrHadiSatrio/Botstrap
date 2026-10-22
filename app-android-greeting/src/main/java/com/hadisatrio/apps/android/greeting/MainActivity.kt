@@ -1,4 +1,4 @@
-package com.hadisatrio.template.kotlin.bootstrap
+package com.hadisatrio.apps.android.greeting
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

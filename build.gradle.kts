@@ -29,7 +29,7 @@ plugins {
 }
 
 dependencies {
-    dokka(project(":androidApp"))
+    dokka(project(":app-android-greeting"))
     dokka(project(":desktopApp"))
     dokka(project(":macosApp"))
     dokka(project(":lib-kmp-greeting"))

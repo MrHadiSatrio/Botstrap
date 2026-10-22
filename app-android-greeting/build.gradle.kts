@@ -1,3 +1,4 @@
+import com.hadisatrio.libs.gradle.module.ModuleName
 import com.hadisatrio.libs.gradle.semver.LiteralSemver
 
 plugins {
@@ -9,14 +10,14 @@ plugins {
 }
 
 android {
-    namespace = "${providers.gradleProperty("project.group").get()}.${providers.gradleProperty("project.name").get()}"
+    namespace = ModuleName(project).packageName
 
     compileSdk {
         version = release(providers.gradleProperty("project.sdk.android.compile").get().toInt())
     }
 
     defaultConfig {
-        applicationId = "${providers.gradleProperty("project.group").get()}.${providers.gradleProperty("project.name").get()}"
+        applicationId = ModuleName(project).packageName
         minSdk = providers.gradleProperty("project.sdk.android.min").get().toInt()
         targetSdk = providers.gradleProperty("project.sdk.android.target").get().toInt()
         versionCode = LiteralSemver(providers.gradleProperty("project.version").get()).toInt()

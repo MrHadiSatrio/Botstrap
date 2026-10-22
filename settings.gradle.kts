@@ -51,7 +51,7 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = settings.providers.gradleProperty("project.name").get()
-include(":androidApp")
+include(":app-android-greeting")
 include(":desktopApp")
 include(":macosApp")
 include(":lib-kmp-greeting")
