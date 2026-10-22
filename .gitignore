@@ -23,6 +23,9 @@ misc.xml
 deploymentTargetDropDown.xml
 render.experimental.xml
 
+# Xcode
+xcuserdata/
+
 # Keystore files
 *.jks
 *.keystore
