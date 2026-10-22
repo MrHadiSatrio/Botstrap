@@ -1,6 +1,6 @@
 @file:Suppress("FunctionNaming")
 
-package com.hadisatrio.template.android.bootstrap.ui.theme
+package com.hadisatrio.template.kotlin.bootstrap.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

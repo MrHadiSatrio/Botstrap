@@ -1,6 +1,6 @@
 @file:Suppress("MagicNumber")
 
-package com.hadisatrio.template.android.bootstrap.ui.theme
+package com.hadisatrio.template.kotlin.bootstrap.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

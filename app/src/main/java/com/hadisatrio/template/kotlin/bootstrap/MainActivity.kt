@@ -1,6 +1,6 @@
 @file:Suppress("FunctionNaming")
 
-package com.hadisatrio.template.android.bootstrap
+package com.hadisatrio.template.kotlin.bootstrap
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -13,7 +13,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.hadisatrio.template.android.bootstrap.ui.theme.BootstrapTheme
+import com.hadisatrio.template.kotlin.bootstrap.ui.theme.BootstrapTheme
 
 /**
  * A [ComponentActivity] that shows a greeting.
