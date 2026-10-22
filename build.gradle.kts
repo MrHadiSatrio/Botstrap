@@ -1,9 +1,11 @@
 import com.android.build.api.dsl.LibraryExtension
+import com.hadisatrio.libs.gradle.module.ModuleName
 import io.gitlab.arturbosch.detekt.extensions.DetektExtension
 import kotlinx.kover.gradle.plugin.dsl.CoverageUnit
 import kotlinx.kover.gradle.plugin.dsl.GroupingEntityType
 import kotlinx.kover.gradle.plugin.dsl.KoverProjectExtension
 import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
+import org.jetbrains.kotlin.gradle.dsl.KotlinMultiplatformExtension
 import org.jetbrains.kotlin.gradle.targets.js.nodejs.NodeJsEnvSpec
 import org.jetbrains.kotlin.gradle.targets.js.nodejs.NodeJsPlugin
 import org.jetbrains.kotlin.gradle.targets.js.yarn.YarnPlugin
@@ -38,7 +40,6 @@ dependencies {
 }
 
 allprojects {
-    group = providers.gradleProperty("project.group").get()
     version = providers.gradleProperty("project.version").get()
 
     // The settings declare the repositories that these tools download from.
@@ -54,6 +55,9 @@ allprojects {
 
 subprojects {
     val libs = rootProject.libs
+    val moduleName = ModuleName(project)
+
+    group = moduleName.mavenGroup
 
     apply(plugin = libs.plugins.detekt.get().pluginId)
     extensions.configure<DetektExtension> {
@@ -102,6 +106,20 @@ subprojects {
                     credentials {
                         username = providers.gradleProperty("project.publish.maven.username").orNull
                         password = providers.gradleProperty("project.publish.maven.password").orNull
+                    }
+                }
+            }
+            publications.withType<MavenPublication>().configureEach {
+                artifactId = artifactId.replaceFirst(project.name, moduleName.mavenArtifact)
+            }
+        }
+
+        plugins.withId(libs.plugins.kotlin.multiplatform.get().pluginId) {
+            extensions.configure<KotlinMultiplatformExtension> {
+                // Kotlin Multiplatform sets the artifact of each target publication after the configuration above.
+                targets.configureEach {
+                    mavenPublication {
+                        artifactId = artifactId.replaceFirst(project.name, moduleName.mavenArtifact)
                     }
                 }
             }
