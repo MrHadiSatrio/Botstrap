@@ -33,7 +33,7 @@ dependencies {
     dokka(project(":desktopApp"))
     dokka(project(":macosApp"))
     dokka(project(":lib-kmp-greeting"))
-    dokka(project(":sharedUI"))
+    dokka(project(":lib-cmp-greeting"))
     dokka(project(":webApp"))
 }
 

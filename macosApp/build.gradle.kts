@@ -16,7 +16,7 @@ kotlin {
 
     sourceSets {
         macosMain.dependencies {
-            implementation(project(":sharedUI"))
+            implementation(project(":lib-cmp-greeting"))
 
             implementation(libs.compose.ui)
         }

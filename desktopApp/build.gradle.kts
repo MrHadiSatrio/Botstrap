@@ -26,7 +26,7 @@ compose.desktop {
 }
 
 dependencies {
-    implementation(project(":sharedUI"))
+    implementation(project(":lib-cmp-greeting"))
 
     implementation(compose.desktop.currentOs)
 }
