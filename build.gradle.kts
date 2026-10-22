@@ -1,3 +1,4 @@
+import com.android.build.api.dsl.LibraryExtension
 import io.gitlab.arturbosch.detekt.extensions.DetektExtension
 import kotlinx.kover.gradle.plugin.dsl.CoverageUnit
 import kotlinx.kover.gradle.plugin.dsl.GroupingEntityType
@@ -5,6 +6,7 @@ import kotlinx.kover.gradle.plugin.dsl.KoverProjectExtension
 
 plugins {
     alias(libs.plugins.android.application) apply false
+    alias(libs.plugins.android.library) apply false
     alias(libs.plugins.kotlin.compose) apply false
     alias(libs.plugins.detekt) apply false
     alias(libs.plugins.kover) apply false
@@ -64,6 +66,42 @@ subprojects {
                             minValue = minBranchCoverage.toInt(),
                             coverageUnits = CoverageUnit.BRANCH
                         )
+                    }
+                }
+            }
+        }
+    }
+
+    plugins.withId(libs.plugins.publish.maven.get().pluginId) {
+        extensions.configure<PublishingExtension> {
+            repositories {
+                maven {
+                    name = providers.gradleProperty("project.publish.maven.name").get()
+                    url = uri(providers.gradleProperty("project.publish.maven.url").get())
+                    // Only the machine that publishes holds the credentials.
+                    credentials {
+                        username = providers.gradleProperty("project.publish.maven.username").orNull
+                        password = providers.gradleProperty("project.publish.maven.password").orNull
+                    }
+                }
+            }
+        }
+
+        plugins.withId(libs.plugins.android.library.get().pluginId) {
+            extensions.configure<LibraryExtension> {
+                publishing {
+                    singleVariant("release") {
+                        withSourcesJar()
+                    }
+                }
+            }
+            extensions.configure<PublishingExtension> {
+                publications {
+                    register<MavenPublication>("release") {
+                        // AGP creates the release component only after the project evaluates.
+                        afterEvaluate {
+                            from(components["release"])
+                        }
                     }
                 }
             }
