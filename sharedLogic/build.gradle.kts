@@ -1,3 +1,4 @@
+import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
@@ -28,6 +29,15 @@ kotlin {
         compilerOptions {
             jvmTarget = JvmTarget.fromTarget(providers.gradleProperty("project.sdk.java.target").get())
         }
+    }
+
+    js {
+        nodejs()
+    }
+
+    @OptIn(ExperimentalWasmDsl::class)
+    wasmJs {
+        nodejs()
     }
 
     sourceSets {
