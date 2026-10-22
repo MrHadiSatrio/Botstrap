@@ -1,0 +1,32 @@
+comments:
+  UndocumentedPublicClass:
+    active: true
+    excludes:
+      - "**/test/**"
+      - "**/androidTest/**"
+      - "**/commonTest/**"
+      - "**/androidUnitTest/**"
+      - "**/iosTest/**"
+    searchInNestedClass: true
+    searchInInnerClass: true
+    searchInInnerObject: true
+    searchInInnerInterface: true
+    searchInProtectedClass: false
+    ignoreDefaultCompanionObject: true
+  UndocumentedPublicFunction:
+    active: true
+    excludes:
+      - "**/test/**"
+      - "**/androidTest/**"
+      - "**/commonTest/**"
+      - "**/androidUnitTest/**"
+      - "**/iosTest/**"
+    searchProtectedFunction: false
+  OutdatedDocumentation:
+    active: true
+  KDocReferencesNonPublicProperty:
+    active: true
+
+style:
+  ClassOrdering:
+    active: true

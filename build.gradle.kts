@@ -28,6 +28,8 @@ subprojects {
     apply(plugin = libs.plugins.detekt.get().pluginId)
     extensions.configure<DetektExtension> {
         autoCorrect = true
+        buildUponDefaultConfig = true
+        config.setFrom(rootProject.layout.projectDirectory.file("detekt.yml"))
         source.setFrom(
             "src/main/java",
             "src/test/java",
