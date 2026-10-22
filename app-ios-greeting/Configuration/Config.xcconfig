@@ -1,7 +1,7 @@
 TEAM_ID=
 
 PRODUCT_NAME=Bootstrap
-PRODUCT_BUNDLE_IDENTIFIER=com.hadisatrio.template.kotlin.bootstrap
+PRODUCT_BUNDLE_IDENTIFIER=com.hadisatrio.apps.ios.greeting
 
 CURRENT_PROJECT_VERSION=1
 MARKETING_VERSION=0.1.0
