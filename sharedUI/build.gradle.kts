@@ -51,6 +51,8 @@ kotlin {
         }
     }
 
+    macosArm64()
+
     sourceSets {
         commonMain.dependencies {
             api(project(":sharedLogic"))
