@@ -34,6 +34,13 @@ private val LightColorScheme = lightColorScheme(
      */
 )
 
+/**
+ * Applies the Material theme of the app to [content].
+ *
+ * @param darkTheme Whether [content] takes the dark color scheme.
+ * @param dynamicColor Whether the colors come from the wallpaper, on Android 12 and later.
+ * @param content The UI that takes the theme.
+ */
 @Composable
 fun BootstrapTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),

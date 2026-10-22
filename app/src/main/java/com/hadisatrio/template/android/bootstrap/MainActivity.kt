@@ -15,6 +15,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.hadisatrio.template.android.bootstrap.ui.theme.BootstrapTheme
 
+/**
+ * A [ComponentActivity] that shows a greeting.
+ */
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,6 +35,9 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+/**
+ * Shows a greeting for [name].
+ */
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
@@ -40,6 +46,9 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     )
 }
 
+/**
+ * Shows [Greeting] in the preview pane of the IDE.
+ */
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
