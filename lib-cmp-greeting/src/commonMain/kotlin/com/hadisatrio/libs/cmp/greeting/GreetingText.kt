@@ -6,7 +6,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.hadisatrio.libs.cmp.greeting.theme.BootstrapTheme
+import com.hadisatrio.libs.cmp.greeting.theme.GreetingTheme
 import com.hadisatrio.libs.kmp.greeting.Greeting
 
 /**
@@ -26,7 +26,7 @@ fun GreetingText(greeting: Greeting, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingTextPreview() {
-    BootstrapTheme {
+    GreetingTheme {
         GreetingText(Greeting(name = "Android"))
     }
 }
