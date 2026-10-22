@@ -11,8 +11,8 @@ plugins {
 }
 
 allprojects {
-    group = project.properties["project.group"].toString()
-    version = project.properties["project.version"].toString()
+    group = providers.gradleProperty("project.group").get()
+    version = providers.gradleProperty("project.version").get()
 }
 
 subprojects {
@@ -41,7 +41,7 @@ subprojects {
 
     apply(plugin = libs.plugins.kover.get().pluginId)
     extensions.configure<KoverProjectExtension> {
-        val minBranchCoverage = properties["project.test.coverage.branch.min"].toString()
+        val minBranchCoverage = providers.gradleProperty("project.test.coverage.branch.min").get()
 
         reports {
             total {

@@ -8,18 +8,18 @@ plugins {
 }
 
 android {
-    namespace = "${project.properties["project.group"]}.${project.properties["project.name"]}"
+    namespace = "${providers.gradleProperty("project.group").get()}.${providers.gradleProperty("project.name").get()}"
 
     compileSdk {
-        version = release(project.properties["project.sdk.android.compile"].toString().toInt())
+        version = release(providers.gradleProperty("project.sdk.android.compile").get().toInt())
     }
 
     defaultConfig {
-        applicationId = "${project.properties["project.group"]}.${project.properties["project.name"]}"
-        minSdk = project.properties["project.sdk.android.min"].toString().toInt()
-        targetSdk = project.properties["project.sdk.android.target"].toString().toInt()
-        versionCode = LiteralSemver(project.properties["project.version"].toString()).toInt()
-        versionName = project.properties["project.version"].toString()
+        applicationId = "${providers.gradleProperty("project.group").get()}.${providers.gradleProperty("project.name").get()}"
+        minSdk = providers.gradleProperty("project.sdk.android.min").get().toInt()
+        targetSdk = providers.gradleProperty("project.sdk.android.target").get().toInt()
+        versionCode = LiteralSemver(providers.gradleProperty("project.version").get()).toInt()
+        versionName = providers.gradleProperty("project.version").get()
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -35,8 +35,8 @@ android {
     }
 
     compileOptions {
-        val sourceInt = project.properties["project.sdk.java.source"].toString().toInt()
-        val targetInt = project.properties["project.sdk.java.target"].toString().toInt()
+        val sourceInt = providers.gradleProperty("project.sdk.java.source").get().toInt()
+        val targetInt = providers.gradleProperty("project.sdk.java.target").get().toInt()
         sourceCompatibility = JavaVersion.values()[sourceInt.dec()]
         targetCompatibility = JavaVersion.values()[targetInt.dec()]
     }
