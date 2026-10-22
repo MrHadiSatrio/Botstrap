@@ -1,4 +1,4 @@
-package com.hadisatrio.template.kotlin.bootstrap
+package com.hadisatrio.apps.macos.greeting
 
 import androidx.compose.ui.window.Window
 import com.hadisatrio.libs.cmp.greeting.GreetingScreen

@@ -1,3 +1,5 @@
+import com.hadisatrio.libs.gradle.module.ModuleName
+
 plugins {
     alias(libs.plugins.kotlin.multiplatform)
     alias(libs.plugins.compose.multiplatform)
@@ -10,7 +12,7 @@ plugins {
 kotlin {
     macosArm64 {
         binaries.executable {
-            entryPoint = "${providers.gradleProperty("project.group").get()}.${providers.gradleProperty("project.name").get()}.main"
+            entryPoint = "${ModuleName(project).packageName}.main"
         }
     }
 
