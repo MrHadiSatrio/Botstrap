@@ -40,10 +40,33 @@ kotlin {
         nodejs()
     }
 
+    @OptIn(ExperimentalWasmDsl::class)
+    wasmWasi {
+        nodejs()
+    }
+
     iosArm64()
     iosSimulatorArm64()
+    iosX64()
 
     macosArm64()
+
+    tvosArm64()
+    tvosSimulatorArm64()
+
+    watchosArm64()
+    watchosSimulatorArm64()
+    watchosDeviceArm64()
+
+    linuxX64()
+    linuxArm64()
+
+    mingwX64()
+
+    androidNativeArm32()
+    androidNativeArm64()
+    androidNativeX86()
+    androidNativeX64()
 
     sourceSets {
         commonTest.dependencies {
