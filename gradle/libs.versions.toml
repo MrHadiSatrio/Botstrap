@@ -24,4 +24,4 @@ junit = { group = "junit", name = "junit", version = "4.13.2" }
 android-application = { id = "com.android.application", version.ref = "agp" }
 detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
-kover = { id = "org.jetbrains.kotlinx.kover", version = "0.9.2" }
+kover = { id = "org.jetbrains.kotlinx.kover", version = "0.9.11" }
