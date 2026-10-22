@@ -9,23 +9,23 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.hadisatrio.template.kotlin.bootstrap.ui.theme.BootstrapTheme
 
 /**
- * Shows a greeting for [name].
+ * Shows [greeting] as text.
  */
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
+fun GreetingText(greeting: Greeting, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = greeting.toString(),
         modifier = modifier
     )
 }
 
 /**
- * Shows [Greeting] in the preview pane of the IDE.
+ * Shows [GreetingText] in the preview pane of the IDE.
  */
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun GreetingTextPreview() {
     BootstrapTheme {
-        Greeting("Android")
+        GreetingText(Greeting(name = "Android"))
     }
 }

@@ -10,14 +10,14 @@ import androidx.compose.ui.Modifier
 import com.hadisatrio.template.kotlin.bootstrap.ui.theme.BootstrapTheme
 
 /**
- * Shows a greeting for [name] on a full screen, in [BootstrapTheme].
+ * Shows [greeting] on a full screen, in [BootstrapTheme].
  */
 @Composable
-fun GreetingScreen(name: String) {
+fun GreetingScreen(greeting: Greeting) {
     BootstrapTheme {
         Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-            Greeting(
-                name = name,
+            GreetingText(
+                greeting = greeting,
                 modifier = Modifier.padding(innerPadding)
             )
         }

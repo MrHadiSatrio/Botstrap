@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import com.hadisatrio.template.kotlin.bootstrap.greeting.Greeting
 import com.hadisatrio.template.kotlin.bootstrap.greeting.GreetingScreen
 
 /**
@@ -14,7 +15,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            GreetingScreen(name = "Android")
+            GreetingScreen(greeting = Greeting(name = "Android"))
         }
     }
 }
