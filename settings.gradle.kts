@@ -10,13 +10,6 @@ pluginManagement {
         mavenCentral()
         gradlePluginPortal()
     }
-    resolutionStrategy {
-        eachPlugin {
-            if (requested.id.id == "com.hadisatrio.libs.android.ruler") {
-                useModule("com.hadisatrio.libs.android:ruler-gradle-plugin:1.0.0-alpha.2")
-            }
-        }
-    }
 }
 
 dependencyResolutionManagement {

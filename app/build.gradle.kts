@@ -7,7 +7,6 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.detekt)
     alias(libs.plugins.kover)
-    alias(libs.plugins.ruler)
 }
 
 android {
@@ -54,13 +53,6 @@ kotlin {
         val targetInt = project.properties["project.sdk.java.target"].toString().toInt()
         jvmTarget = JvmTarget.values()[targetInt - 8]
     }
-}
-
-ruler {
-    abi.set("arm64-v8a")
-    locale.set("en")
-    screenDensity.set(422)
-    sdkVersion.set(project.properties["project.sdk.android.target"].toString().toInt())
 }
 
 dependencies {
